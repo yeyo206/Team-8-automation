@@ -1,4 +1,6 @@
 package CignaMain;
 
-public class CignaMainTestCases  {
+import Base.CommonAPI;
+
+public class CignaMainTestCases extends CommonAPI {
 }
