@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51d9005c-d234-494e-b3d4-27baf8493359" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/Generic/target/" />
-    <ignored path="$PROJECT_DIR$/Cigna/target/" />
-    <ignored path="$PROJECT_DIR$/Amazon/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +11,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
@@ -80,6 +76,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> 4efb708c9982837d0bae9241ce101ba7e9240a26
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -91,22 +89,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/pom.xml" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/Base/UrlSetup.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/Cigna/pom.xml" />
-        <option value="$PROJECT_DIR$/Amazon/pom.xml" />
-        <option value="$PROJECT_DIR$/Amazon/src/test/java/AmazonTest/AmazonTests.java" />
-        <option value="$PROJECT_DIR$/Amazon/src/main/java/AmazonMain/AmazonMainTestCases.java" />
-        <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests.java" />
-        <option value="$PROJECT_DIR$/Cigna/src/main/java/CignaMain/CignaMainTestCases.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -114,116 +96,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="808" />
-  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Group8Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group8Automation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group8Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group8Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="Cigna" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group8Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group8Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="Cigna" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group8Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group8Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="Cigna" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group8Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group8Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="Cigna" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group8Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group8Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="Cigna" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group8Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group8Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group8Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group8Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group8Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group8Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group8Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group8Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Group8Automation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Group8Automation" type="462c0819:PsiDirectoryNode" />
-              <item name="Generic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Base" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Drivers" />
   </component>
@@ -285,6 +158,7 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
   <component name="TestHistory">
     <history-entry file="CignaTests_testClickPrivacy - 2019.09.24 at 20h 24m 24s.xml">
       <configuration name="CignaTests.testClickPrivacy" configurationId="TestNG" />
@@ -414,4 +288,6 @@
       </provider>
     </entry>
   </component>
+=======
+>>>>>>> 4efb708c9982837d0bae9241ce101ba7e9240a26
 </project>

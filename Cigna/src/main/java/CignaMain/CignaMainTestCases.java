@@ -21,9 +21,12 @@ public class CignaMainTestCases extends CommonAPI {
     @FindBy(xpath = "//h1") public static WebElement header;
     @FindBy(xpath = "//ul[@class = 'navbar-nav align-items-center ml-auto universal-navigation-buttons']/li/a")
     public static List<WebElement> topLinks;
+
     public void clickPrivacyButton(){
         privacyButton.click();
         Assert.assertTrue(header.getText().toLowerCase().contains("privacy"));
     }
+
+
 
 }

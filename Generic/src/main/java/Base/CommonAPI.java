@@ -16,6 +16,7 @@ public class CommonAPI {
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25,TimeUnit.SECONDS);
+        driver.manage().window().maximize();
         switch(moduleName) {
             case Cigna:
                 driver.get("https://www.cigna.com/");
