@@ -12,7 +12,8 @@ public class CommonAPI {
     public static WebDriver driver = null;
 
     public void setUp(UrlSetup moduleName){
-        System.setProperty("webdriver.chrome.driver" , "/Users/mac/IdeaProjects/framework/drivers/chromedriver 3");
+        // System.setProperty("webdriver.chrome.driver" , "/Users/mac/IdeaProjects/framework/drivers/chromedriver 3");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\aleja\\OneDrive\\Desktop\\Team-8-automation\\Drivers\\77.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25,TimeUnit.SECONDS);

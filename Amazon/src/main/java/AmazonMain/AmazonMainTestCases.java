@@ -25,6 +25,7 @@ public class AmazonMainTestCases extends CommonAPI {
     }
     WebDriverWait wait;
 
+
     @FindBy(id = "twotabsearchtextbox") public static WebElement searchBox;
     @FindBy(className = "nav-input") public static WebElement search;
     @FindBy(xpath = "//a[@href='/gp/navigation/redirector.html/ref=sign-in-redirect?ie=UTF8&associationHandle=usflex&currentPageURL=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&pageType=Gateway&switchAccount=&yshURL=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_custrec_signin']") public static WebElement signInButton;
@@ -39,7 +40,9 @@ public class AmazonMainTestCases extends CommonAPI {
     @FindBy(xpath = "//a[@href='/gp/cart/view.html?ref_=nav_cart']") public static WebElement cart;
     @FindBy(id = "searchDropdownBox") public static WebElement categoriesDropDown;
     @FindBy(xpath = "//a[@href='/Vehicles/b/?ie=UTF8&node=10677469011&ref_=topnav_storetab_vehicles']") public static WebElement header;
-    @FindBy (xpath = "//h2[@class='a-size-base-plus a-color-base a-text-normal' and contains(text(), \"Lenovo  130S-11IGM 11.6\")]") public static WebElement addingItemToCart;
+    @FindBy(xpath = "//span[@class='a-size-base-plus a-color-base a-text-normal']") public static WebElement addingItemToCart;
+    @FindBy(xpath = "//span[@class='a-button a-spacing-small a-button-primary a-button-icon']") public static WebElement addToCartButton;
+
     public void searchItem(){
         searchBox.sendKeys("Laptop");
         search.click();
@@ -78,9 +81,7 @@ public class AmazonMainTestCases extends CommonAPI {
     }
     public void amazonCart() {
         cart.click();
-        String text = cart.getText();
-        Assert.assertEquals(text, "Cart");
-        //Assert.assertTrue(cart.getText().equalsIgnoreCase("Cart"));
+        Assert.assertTrue(cart.getText().contains("Cart"));
     }
     public void categoriesDropDown() {
         Select select = new Select(categoriesDropDown);
@@ -96,7 +97,9 @@ public class AmazonMainTestCases extends CommonAPI {
     public void addingItemToCart() {
         searchItem();
         addingItemToCart.click();
-
+        addToCartButton.click();
+        String text = addToCartButton.getText();
+        Assert.assertEquals(text, "Add to Cart");
     }
 
 
