@@ -31,4 +31,16 @@ public class CignaTests extends CignaMainTestCases {
     public void testClickEspanol(){
         clickEspanolButton();
     }
+    @Test
+    public void testSearchBar(){
+        searchBarSearch();
+    }
+    @Test
+    public void testFindDoctor(){
+        clickFindDoctor();
+    }
+    @Test
+    public void testSignIn(){
+        clickSignIn();
+    }
 }
