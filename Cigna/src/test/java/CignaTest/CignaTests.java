@@ -18,7 +18,6 @@ public class CignaTests extends CignaMainTestCases {
     public void testClickPrivacy(){
         clickPrivacyButton();
     }
-
     @Test
     public void testClickCignaInternational(){
         clickCignaInternational();

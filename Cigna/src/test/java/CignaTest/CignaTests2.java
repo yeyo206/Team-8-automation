@@ -35,5 +35,13 @@ public class CignaTests2 extends CignaMainTestCases {
     public void testClickInternationalInsurance(){
         clickInternationalInsuranceButton();
     }
+    @Test
+    public void testMemberSources(){
+        memberResources();
+    }
+    @Test
+    public void testFindingButton(){
+        clickFindingDoctors();
+    }
 
 }

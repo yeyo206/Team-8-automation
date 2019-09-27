@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9efcc0f8-1e28-418b-9b57-860c3b46652a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cigna/src/main/java/CignaMain/CignaMainTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/main/java/CignaMain/CignaMainTestCases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cigna/target/classes/CignaMain/CignaMainTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/target/classes/CignaMain/CignaMainTestCases.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cigna/target/test-classes/CignaTest/CignaTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/target/test-classes/CignaTest/CignaTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/target/test-classes/CignaTest/CignaTests2.class" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/target/test-classes/CignaTest/CignaTests2.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,14 +29,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cigna/src/main/java/CignaMain/CignaMainTestCases.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="179" column="8" selection-start-line="179" selection-start-column="8" selection-end-line="179" selection-end-column="8" />
+            <state relative-caret-position="209">
+              <caret line="354" column="93" selection-start-line="354" selection-start-column="93" selection-end-line="354" selection-end-column="93" />
               <folding>
-                <element signature="e#3080#3081#0" expanded="true" />
-                <element signature="e#3116#3117#0" expanded="true" />
+                <element signature="e#6984#6985#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#478#479#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#742#743#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#965#966#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,8 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="394">
+              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#269#270#0" expanded="true" />
@@ -60,6 +90,34 @@
                 <element signature="e#880#881#0" expanded="true" />
                 <element signature="e#928#929#0" expanded="true" />
                 <element signature="e#967#968#0" expanded="true" />
+                <element signature="e#1016#1017#0" expanded="true" />
+                <element signature="e#1035#1036#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#622#623#0" expanded="true" />
+                <element signature="e#672#673#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
+                <element signature="e#1088#1089#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,10 +141,13 @@
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTestTopBar/CignaTests.java" />
         <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTestTopBarButtons/CignaTests.java" />
-        <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests.java" />
-        <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests2.java" />
         <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests3.java" />
+        <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests2.java" />
+        <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests.java" />
+        <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests4.java" />
+        <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests5.java" />
         <option value="$PROJECT_DIR$/Cigna/src/main/java/CignaMain/CignaMainTestCases.java" />
+        <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests6.java" />
       </list>
     </option>
   </component>
@@ -179,8 +240,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CignaTests3.testCommonInsurance">
-    <configuration name="CignaTests3.testClickHealthcareReform" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CignaTests6.testClickSuicideButton">
+    <configuration name="CignaTests6.testClickLgbtButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Cigna" />
       <extension name="coverage">
         <pattern>
@@ -189,8 +250,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="CignaTest" />
-      <option name="MAIN_CLASS_NAME" value="CignaTest.CignaTests3" />
-      <option name="METHOD_NAME" value="testClickHealthcareReform" />
+      <option name="MAIN_CLASS_NAME" value="CignaTest.CignaTests6" />
+      <option name="METHOD_NAME" value="testClickLgbtButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -198,7 +259,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CignaTests3.testCommonInsurance" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CignaTests6.testClickMentalHealth" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Cigna" />
       <extension name="coverage">
         <pattern>
@@ -207,8 +268,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="CignaTest" />
-      <option name="MAIN_CLASS_NAME" value="CignaTest.CignaTests3" />
-      <option name="METHOD_NAME" value="testCommonInsurance" />
+      <option name="MAIN_CLASS_NAME" value="CignaTest.CignaTests6" />
+      <option name="METHOD_NAME" value="testClickMentalHealth" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -216,7 +277,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CignaTests3.testCopayButton" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CignaTests6.testClickMilitaryButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Cigna" />
       <extension name="coverage">
         <pattern>
@@ -225,8 +286,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="CignaTest" />
-      <option name="MAIN_CLASS_NAME" value="CignaTest.CignaTests3" />
-      <option name="METHOD_NAME" value="testCopayButton" />
+      <option name="MAIN_CLASS_NAME" value="CignaTest.CignaTests6" />
+      <option name="METHOD_NAME" value="testClickMilitaryButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -234,7 +295,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CignaTests3.testHowToShopButton" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CignaTests6.testClickSubstanceButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Cigna" />
       <extension name="coverage">
         <pattern>
@@ -243,8 +304,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="CignaTest" />
-      <option name="MAIN_CLASS_NAME" value="CignaTest.CignaTests3" />
-      <option name="METHOD_NAME" value="testHowToShopButton" />
+      <option name="MAIN_CLASS_NAME" value="CignaTest.CignaTests6" />
+      <option name="METHOD_NAME" value="testClickSubstanceButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -252,7 +313,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CignaTests3.testProviderButton" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CignaTests6.testClickSuicideButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Cigna" />
       <extension name="coverage">
         <pattern>
@@ -261,8 +322,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="CignaTest" />
-      <option name="MAIN_CLASS_NAME" value="CignaTest.CignaTests3" />
-      <option name="METHOD_NAME" value="testProviderButton" />
+      <option name="MAIN_CLASS_NAME" value="CignaTest.CignaTests6" />
+      <option name="METHOD_NAME" value="testClickSuicideButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -272,11 +333,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CignaTests3.testCommonInsurance" />
-        <item itemvalue="TestNG.CignaTests3.testProviderButton" />
-        <item itemvalue="TestNG.CignaTests3.testCopayButton" />
-        <item itemvalue="TestNG.CignaTests3.testHowToShopButton" />
-        <item itemvalue="TestNG.CignaTests3.testClickHealthcareReform" />
+        <item itemvalue="TestNG.CignaTests6.testClickSuicideButton" />
+        <item itemvalue="TestNG.CignaTests6.testClickSubstanceButton" />
+        <item itemvalue="TestNG.CignaTests6.testClickMilitaryButton" />
+        <item itemvalue="TestNG.CignaTests6.testClickMentalHealth" />
+        <item itemvalue="TestNG.CignaTests6.testClickLgbtButton" />
       </list>
     </recent_temporary>
   </component>
@@ -294,42 +355,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CignaTests3_testUnderstandingInsurance - 2019.09.25 at 22h 26m 35s.xml">
-      <configuration name="CignaTests3.testUnderstandingInsurance" configurationId="TestNG" />
+    <history-entry file="CignaTests5_testDisasterResourcesButton - 2019.09.26 at 21h 15m 50s.xml">
+      <configuration name="CignaTests5.testDisasterResourcesButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CignaTests3_testUnderstandingInsurance - 2019.09.25 at 22h 26m 56s.xml">
-      <configuration name="CignaTests3.testUnderstandingInsurance" configurationId="TestNG" />
+    <history-entry file="CignaTests5_testEatingDisordersButon - 2019.09.26 at 21h 19m 18s.xml">
+      <configuration name="CignaTests5.testEatingDisordersButon" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CignaTests3_testBuyingInsuranceButton - 2019.09.25 at 22h 28m 14s.xml">
-      <configuration name="CignaTests3.testBuyingInsuranceButton" configurationId="TestNG" />
+    <history-entry file="CignaTests5_testEatingWellButton - 2019.09.26 at 21h 23m 44s.xml">
+      <configuration name="CignaTests5.testEatingWellButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CignaTests3_testClickHealthcareReform - 2019.09.25 at 22h 37m 40s.xml">
-      <configuration name="CignaTests3.testClickHealthcareReform" configurationId="TestNG" />
+    <history-entry file="CignaTests5_testExercisesButton - 2019.09.26 at 21h 28m 55s.xml">
+      <configuration name="CignaTests5.testExercisesButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CignaTests3_testClickHealthcareReform - 2019.09.25 at 22h 39m 17s.xml">
-      <configuration name="CignaTests3.testClickHealthcareReform" configurationId="TestNG" />
+    <history-entry file="CignaTests6_testClickFamilyButton - 2019.09.26 at 21h 33m 33s.xml">
+      <configuration name="CignaTests6.testClickFamilyButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CignaTests3_testClickHealthcareReform - 2019.09.25 at 22h 40m 04s.xml">
-      <configuration name="CignaTests3.testClickHealthcareReform" configurationId="TestNG" />
+    <history-entry file="CignaTests6_testClickHealthyAging - 2019.09.26 at 21h 39m 46s.xml">
+      <configuration name="CignaTests6.testClickHealthyAging" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CignaTests3_testHowToShopButton - 2019.09.25 at 22h 46m 08s.xml">
-      <configuration name="CignaTests3.testHowToShopButton" configurationId="TestNG" />
+    <history-entry file="CignaTests6_testClickLgbtButton - 2019.09.26 at 21h 47m 38s.xml">
+      <configuration name="CignaTests6.testClickLgbtButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CignaTests3_testCopayButton - 2019.09.25 at 22h 49m 33s.xml">
-      <configuration name="CignaTests3.testCopayButton" configurationId="TestNG" />
+    <history-entry file="CignaTests6_testClickMentalHealth - 2019.09.26 at 21h 53m 42s.xml">
+      <configuration name="CignaTests6.testClickMentalHealth" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CignaTests3_testCopayButton - 2019.09.25 at 22h 50m 20s.xml">
-      <configuration name="CignaTests3.testCopayButton" configurationId="TestNG" />
+    <history-entry file="CignaTests6_testClickMilitaryButton - 2019.09.26 at 21h 57m 21s.xml">
+      <configuration name="CignaTests6.testClickMilitaryButton" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CignaTests3_testProviderButton - 2019.09.25 at 23h 02m 35s.xml">
-      <configuration name="CignaTests3.testProviderButton" configurationId="TestNG" />
+    <history-entry file="CignaTests6_testClickSubstanceButton - 2019.09.26 at 22h 02m 57s.xml">
+      <configuration name="CignaTests6.testClickSubstanceButton" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="814" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -338,7 +399,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.37811634" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.37811634" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,26 +442,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="287">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#489#490#0" expanded="true" />
             <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
             <element signature="e#672#673#0" expanded="true" />
             <element signature="e#705#706#0" expanded="true" />
             <element signature="e#764#765#0" expanded="true" />
             <element signature="e#812#813#0" expanded="true" />
             <element signature="e#873#874#0" expanded="true" />
             <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#734#735#0" expanded="true" />
+            <element signature="e#770#771#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="394">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#269#270#0" expanded="true" />
@@ -417,40 +509,96 @@
             <element signature="e#880#881#0" expanded="true" />
             <element signature="e#928#929#0" expanded="true" />
             <element signature="e#967#968#0" expanded="true" />
+            <element signature="e#1016#1017#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests.java">
+    <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-172">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
             <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#923#924#0" expanded="true" />
-            <element signature="e#963#964#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1040#1041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Cigna/src/main/java/CignaMain/CignaMainTestCases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="179" column="8" selection-start-line="179" selection-start-column="8" selection-end-line="179" selection-end-column="8" />
+        <state relative-caret-position="209">
+          <caret line="354" column="93" selection-start-line="354" selection-start-column="93" selection-end-line="354" selection-end-column="93" />
           <folding>
-            <element signature="e#3080#3081#0" expanded="true" />
-            <element signature="e#3116#3117#0" expanded="true" />
+            <element signature="e#6984#6985#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTests6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#965#966#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
           </folding>
         </state>
       </provider>
