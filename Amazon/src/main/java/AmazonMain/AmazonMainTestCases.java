@@ -1,29 +1,16 @@
 package AmazonMain;
 
 import Base.CommonAPI;
-import Base.UrlSetup;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.annotations.BeforeMethod;
 
 public class AmazonMainTestCases extends CommonAPI {
 
     String user;
     String password;
-
-
-    @BeforeMethod
-    public void amazonSetup(){
-        setUp(UrlSetup.Amazon);
-    }
-    WebDriverWait wait;
 
     @FindBy(id = "twotabsearchtextbox") public static WebElement searchBox;
     @FindBy(className = "nav-input") public static WebElement search;
