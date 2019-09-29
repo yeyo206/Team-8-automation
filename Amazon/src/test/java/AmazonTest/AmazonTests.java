@@ -57,5 +57,17 @@ public class AmazonTests extends AmazonMainTestCases {
     public void testAddingItemToCart() {
         addingItemToCart();
     }
+    @Test
+    public void testZipCode() {
+        enterYourZipCode();
+    }
+    @Test
+    public void testDealOfTheDay() {
+        dealOfTheDay();
+    }
+    @Test
+    public void testShopByCategories() {
+        shopGolfBagBestSeller();
+    }
 
 }

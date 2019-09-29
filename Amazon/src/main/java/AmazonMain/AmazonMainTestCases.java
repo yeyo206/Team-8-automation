@@ -2,6 +2,7 @@ package AmazonMain;
 
 import Base.CommonAPI;
 import Base.UrlSetup;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,19 +13,21 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class AmazonMainTestCases extends CommonAPI {
 
     String user;
     String password;
 
-
     @BeforeMethod
     public void amazonSetup(){
         setUp(UrlSetup.Amazon);
     }
     WebDriverWait wait;
-
 
     @FindBy(id = "twotabsearchtextbox") public static WebElement searchBox;
     @FindBy(className = "nav-input") public static WebElement search;
@@ -42,8 +45,17 @@ public class AmazonMainTestCases extends CommonAPI {
     @FindBy(xpath = "//a[@href='/Vehicles/b/?ie=UTF8&node=10677469011&ref_=topnav_storetab_vehicles']") public static WebElement header;
     @FindBy(xpath = "//span[@class='a-size-base-plus a-color-base a-text-normal']") public static WebElement addingItemToCart;
     @FindBy(xpath = "//span[@class='a-button a-spacing-small a-button-primary a-button-icon']") public static WebElement addToCartButton;
-
-    public void searchItem(){
+    @FindBy(xpath = "//span[@id='glow-ingress-line2']") public static WebElement enterYourZipCode;
+    @FindBy(id = "GLUXZipUpdateInput") public static WebElement inputZipCode;
+    @FindBy(xpath = "//a[contains(text(),'Deal of the Day')]") public static WebElement dealOfTheDay;
+    @FindBy(xpath = "//i[@class='hm-icon nav-sprite']") public static WebElement shopByCategory;
+    @FindBy(xpath = "//a[@data-menu-id='21']") public static WebElement sportsNOutdoorButton;
+    @FindBy(xpath = "//a[@href='/gp/browse.html?node=3410851&ref_=nav_em_T1_0_4_22_6__sa_sp_golf']") public static WebElement getSportsNOutdoorButtonList;
+    @FindBy(xpath = "//a[contains(text(),'Golf Bags')]") public static WebElement golfBags;
+    @FindBy(xpath = "//b[contains(text(),'Golf Bags')]") public static WebElement golfBagsHeader;
+    @FindBy(xpath = "//a[@class='a-link-normal']") public static WebElement bestSellers;
+    @FindBy(xpath = "//span[@class='aok-inline-block zg-item']") public static List<WebElement> bagsList;
+    public void searchItem() {
         searchBox.sendKeys("Laptop");
         search.click();
     }
@@ -101,14 +113,25 @@ public class AmazonMainTestCases extends CommonAPI {
         String text = addToCartButton.getText();
         Assert.assertEquals(text, "Add to Cart");
     }
-
-
-
-
-
-
-
-
-
-
+    public void enterYourZipCode() {
+        enterYourZipCode.click();
+        inputZipCode.sendKeys("33186", Keys.ENTER);
+        String text = enterYourZipCode.getText();
+        Assert.assertEquals(text, "Select your address");
+    }
+    public void dealOfTheDay() {
+        clickOnTodaysDeals();
+        dealOfTheDay.click();
+    }
+    public void shopGolfBagBestSeller() {
+        shopByCategory.click();
+        sportsNOutdoorButton.click();
+        getSportsNOutdoorButtonList.click();
+        golfBags.click();
+        String text = golfBagsHeader.getText();
+        Assert.assertEquals(text, "Golf Bags");
+        bestSellers.click();
+        bagsList.get(0).click();
+        addToCartButton.click();
+    }
 }

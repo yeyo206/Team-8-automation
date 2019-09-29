@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51d9005c-d234-494e-b3d4-27baf8493359" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Amazon/src/test/java/Resources/AmazonTestRunner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Drivers/77.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/AmazonMain/AmazonMainTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/main/java/AmazonMain/AmazonMainTestCases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/AmazonTest/AmazonTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/AmazonTest/AmazonTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/target/classes/Base/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/classes/AmazonMain/AmazonMainTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/classes/AmazonMain/AmazonMainTestCases.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/AmazonTest/AmazonTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/AmazonTest/AmazonTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +51,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\Amazon\src\test\java" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\Drivers" />
       <recent name="$PROJECT_DIR$/Drivers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\Amazon\src\test\java" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -75,25 +72,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AmazonTests.testAmazonCart (1)">
-    <configuration name="AmazonTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="AmazonTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="AmazonTest" />
-      <option name="MAIN_CLASS_NAME" value="AmazonTest.AmazonTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AmazonTests.testAddingItemToCart (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AmazonTests.testShopByCategories">
+    <configuration name="AmazonTests.testAddingItemToCart" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -105,14 +85,13 @@
       <option name="MAIN_CLASS_NAME" value="AmazonTest.AmazonTests" />
       <option name="METHOD_NAME" value="testAddingItemToCart" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AmazonTests.testAmazonCart (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AmazonTests.testDealOfTheDay" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -122,16 +101,15 @@
       </extension>
       <option name="PACKAGE_NAME" value="AmazonTest" />
       <option name="MAIN_CLASS_NAME" value="AmazonTest.AmazonTests" />
-      <option name="METHOD_NAME" value="testAmazonCart" />
+      <option name="METHOD_NAME" value="testDealOfTheDay" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AmazonTests.testAmazonCart" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AmazonTests.testShopByCategories" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -141,7 +119,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="AmazonTest" />
       <option name="MAIN_CLASS_NAME" value="AmazonTest.AmazonTests" />
-      <option name="METHOD_NAME" value="testAmazonCart" />
+      <option name="METHOD_NAME" value="testShopByCategories" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -149,10 +127,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Amazon/src/test/java/Resources/AmazonTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AmazonTests.testTodaysDeals" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/java/Resources/AmazonTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AmazonTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AmazonTest" />
+      <option name="MAIN_CLASS_NAME" value="AmazonTest.AmazonTests" />
+      <option name="METHOD_NAME" value="testTodaysDeals" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AmazonTests.testZipCode" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AmazonTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AmazonTest" />
+      <option name="MAIN_CLASS_NAME" value="AmazonTest.AmazonTests" />
+      <option name="METHOD_NAME" value="testZipCode" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -161,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AmazonTests.testAmazonCart (1)" />
-        <item itemvalue="TestNG.AmazonTests.testAmazonCart" />
-        <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Amazon/src/test/java/Resources/AmazonTestRunner.xml" />
-        <item itemvalue="TestNG.AmazonTests" />
-        <item itemvalue="TestNG.AmazonTests.testAddingItemToCart (1)" />
+        <item itemvalue="TestNG.AmazonTests.testShopByCategories" />
+        <item itemvalue="TestNG.AmazonTests.testAddingItemToCart" />
+        <item itemvalue="TestNG.AmazonTests.testDealOfTheDay" />
+        <item itemvalue="TestNG.AmazonTests.testZipCode" />
+        <item itemvalue="TestNG.AmazonTests.testTodaysDeals" />
       </list>
     </recent_temporary>
   </component>
@@ -187,21 +191,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Amazon/src/main/java/AmazonMain/AmazonMainTestCases.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
