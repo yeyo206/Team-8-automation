@@ -35,11 +35,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Drivers" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Drivers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Drivers" />
     </key>
   </component>
   <component name="RunDashboard">
