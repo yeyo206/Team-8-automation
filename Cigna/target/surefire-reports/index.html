@@ -1,0 +1,2026 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Cigna_Automation" class="navigator-link">
+              <span class="suite-name border-failed">Cigna Automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Cigna_Automation" class="navigator-link ">
+                    <span>cignaTestRunner.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Cigna_Automation" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Cigna_Automation" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Cigna_Automation" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Cigna_Automation" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Cigna_Automation" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Cigna_Automation" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">42 methods, 1 failed,   41 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Cigna_Automation" class="hide-methods failed suite-Cigna_Automation"> (hide)</a> <!-- hide-methods failed suite-Cigna_Automation -->
+                      <a href="#" panel-name="suite-Cigna_Automation" class="show-methods failed suite-Cigna_Automation"> (show)</a> <!-- show-methods failed suite-Cigna_Automation -->
+                    </span>
+                    <div class="method-list-content failed suite-Cigna_Automation">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests2" class="method navigator-link" hash-for-method="testDentalPlanButton">testDentalPlanButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Cigna_Automation -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Cigna_Automation" class="hide-methods passed suite-Cigna_Automation"> (hide)</a> <!-- hide-methods passed suite-Cigna_Automation -->
+                      <a href="#" panel-name="suite-Cigna_Automation" class="show-methods passed suite-Cigna_Automation"> (show)</a> <!-- show-methods passed suite-Cigna_Automation -->
+                    </span>
+                    <div class="method-list-content passed suite-Cigna_Automation">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests5" class="method navigator-link" hash-for-method="testAutismButton">testAutismButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests3" class="method navigator-link" hash-for-method="testBuyingInsuranceButton">testBuyingInsuranceButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests4" class="method navigator-link" hash-for-method="testCignaMobileAppButton">testCignaMobileAppButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests4" class="method navigator-link" hash-for-method="testClaimsButton">testClaimsButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests" class="method navigator-link" hash-for-method="testClickCignaInternational">testClickCignaInternational</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests" class="method navigator-link" hash-for-method="testClickContactUs">testClickContactUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests" class="method navigator-link" hash-for-method="testClickEspanol">testClickEspanol</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests6" class="method navigator-link" hash-for-method="testClickFamilyButton">testClickFamilyButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests3" class="method navigator-link" hash-for-method="testClickHealthcareReform">testClickHealthcareReform</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests6" class="method navigator-link" hash-for-method="testClickHealthyAging">testClickHealthyAging</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests4" class="method navigator-link" hash-for-method="testClickHsaButton">testClickHsaButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests2" class="method navigator-link" hash-for-method="testClickInternationalInsurance">testClickInternationalInsurance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests6" class="method navigator-link" hash-for-method="testClickLgbtButton">testClickLgbtButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests6" class="method navigator-link" hash-for-method="testClickMentalHealth">testClickMentalHealth</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests6" class="method navigator-link" hash-for-method="testClickMilitaryButton">testClickMilitaryButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests" class="method navigator-link" hash-for-method="testClickPrivacy">testClickPrivacy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests6" class="method navigator-link" hash-for-method="testClickSubstanceButton">testClickSubstanceButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests6" class="method navigator-link" hash-for-method="testClickSuicideButton">testClickSuicideButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests3" class="method navigator-link" hash-for-method="testCommonInsurance">testCommonInsurance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests3" class="method navigator-link" hash-for-method="testCopayButton">testCopayButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests4" class="method navigator-link" hash-for-method="testCustomerServicesButton">testCustomerServicesButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests5" class="method navigator-link" hash-for-method="testDentalPlanButton">testDentalPlanButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests5" class="method navigator-link" hash-for-method="testDisasterResourcesButton">testDisasterResourcesButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests5" class="method navigator-link" hash-for-method="testEatingDisordersButon">testEatingDisordersButon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests5" class="method navigator-link" hash-for-method="testEatingWellButton">testEatingWellButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests5" class="method navigator-link" hash-for-method="testExercisesButton">testExercisesButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests" class="method navigator-link" hash-for-method="testFindDoctor">testFindDoctor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests2" class="method navigator-link" hash-for-method="testFindingButton">testFindingButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests5" class="method navigator-link" hash-for-method="testHealthAndWellnessButton">testHealthAndWellnessButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests3" class="method navigator-link" hash-for-method="testHowToShopButton">testHowToShopButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests2" class="method navigator-link" hash-for-method="testIndividualsAndFamilyButton">testIndividualsAndFamilyButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests2" class="method navigator-link" hash-for-method="testMemberSources">testMemberSources</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests2" class="method navigator-link" hash-for-method="testOtherSuplementalInsurance">testOtherSuplementalInsurance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests2" class="method navigator-link" hash-for-method="testPlansAndServices">testPlansAndServices</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests4" class="method navigator-link" hash-for-method="testPrescriptionButton">testPrescriptionButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests4" class="method navigator-link" hash-for-method="testProgramsButton">testProgramsButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests3" class="method navigator-link" hash-for-method="testProviderButton">testProviderButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests4" class="method navigator-link" hash-for-method="testRequestIdCard">testRequestIdCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests" class="method navigator-link" hash-for-method="testSearchBar">testSearchBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests" class="method navigator-link" hash-for-method="testSignIn">testSignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Cigna_Automation" title="CignaTest.CignaTests3" class="method navigator-link" hash-for-method="testUnderstandingInsurance">testUnderstandingInsurance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Cigna_Automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Cigna_Automation" class="panel Cigna_Automation">
+          <div class="suite-Cigna_Automation-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">CignaTest.CignaTests2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDentalPlanButton">
+                  </a> <!-- testDentalPlanButton -->
+                  <span class="method-name">testDentalPlanButton</span>
+                  <div class="stack-trace">java.lang.AssertionError: did not expect to find [true] but found [false]
+	at CignaMain.CignaMainTestCases.clickDentalPLan(CignaMainTestCases.java:148)
+	at CignaTest.CignaTests2.testDentalPlanButton(CignaTests2.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cigna_Automation-class-failed -->
+          <div class="suite-Cigna_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CignaTest.CignaTests6</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickFamilyButton">
+                  </a> <!-- testClickFamilyButton -->
+                  <span class="method-name">testClickFamilyButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickHealthyAging">
+                  </a> <!-- testClickHealthyAging -->
+                  <span class="method-name">testClickHealthyAging</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickLgbtButton">
+                  </a> <!-- testClickLgbtButton -->
+                  <span class="method-name">testClickLgbtButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickMentalHealth">
+                  </a> <!-- testClickMentalHealth -->
+                  <span class="method-name">testClickMentalHealth</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickMilitaryButton">
+                  </a> <!-- testClickMilitaryButton -->
+                  <span class="method-name">testClickMilitaryButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickSubstanceButton">
+                  </a> <!-- testClickSubstanceButton -->
+                  <span class="method-name">testClickSubstanceButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickSuicideButton">
+                  </a> <!-- testClickSuicideButton -->
+                  <span class="method-name">testClickSuicideButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cigna_Automation-class-passed -->
+          <div class="suite-Cigna_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CignaTest.CignaTests2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickInternationalInsurance">
+                  </a> <!-- testClickInternationalInsurance -->
+                  <span class="method-name">testClickInternationalInsurance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindingButton">
+                  </a> <!-- testFindingButton -->
+                  <span class="method-name">testFindingButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testIndividualsAndFamilyButton">
+                  </a> <!-- testIndividualsAndFamilyButton -->
+                  <span class="method-name">testIndividualsAndFamilyButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMemberSources">
+                  </a> <!-- testMemberSources -->
+                  <span class="method-name">testMemberSources</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOtherSuplementalInsurance">
+                  </a> <!-- testOtherSuplementalInsurance -->
+                  <span class="method-name">testOtherSuplementalInsurance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPlansAndServices">
+                  </a> <!-- testPlansAndServices -->
+                  <span class="method-name">testPlansAndServices</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cigna_Automation-class-passed -->
+          <div class="suite-Cigna_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CignaTest.CignaTests5</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAutismButton">
+                  </a> <!-- testAutismButton -->
+                  <span class="method-name">testAutismButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDentalPlanButton">
+                  </a> <!-- testDentalPlanButton -->
+                  <span class="method-name">testDentalPlanButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDisasterResourcesButton">
+                  </a> <!-- testDisasterResourcesButton -->
+                  <span class="method-name">testDisasterResourcesButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEatingDisordersButon">
+                  </a> <!-- testEatingDisordersButon -->
+                  <span class="method-name">testEatingDisordersButon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEatingWellButton">
+                  </a> <!-- testEatingWellButton -->
+                  <span class="method-name">testEatingWellButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testExercisesButton">
+                  </a> <!-- testExercisesButton -->
+                  <span class="method-name">testExercisesButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHealthAndWellnessButton">
+                  </a> <!-- testHealthAndWellnessButton -->
+                  <span class="method-name">testHealthAndWellnessButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cigna_Automation-class-passed -->
+          <div class="suite-Cigna_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CignaTest.CignaTests4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCignaMobileAppButton">
+                  </a> <!-- testCignaMobileAppButton -->
+                  <span class="method-name">testCignaMobileAppButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClaimsButton">
+                  </a> <!-- testClaimsButton -->
+                  <span class="method-name">testClaimsButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickHsaButton">
+                  </a> <!-- testClickHsaButton -->
+                  <span class="method-name">testClickHsaButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCustomerServicesButton">
+                  </a> <!-- testCustomerServicesButton -->
+                  <span class="method-name">testCustomerServicesButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPrescriptionButton">
+                  </a> <!-- testPrescriptionButton -->
+                  <span class="method-name">testPrescriptionButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProgramsButton">
+                  </a> <!-- testProgramsButton -->
+                  <span class="method-name">testProgramsButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRequestIdCard">
+                  </a> <!-- testRequestIdCard -->
+                  <span class="method-name">testRequestIdCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cigna_Automation-class-passed -->
+          <div class="suite-Cigna_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CignaTest.CignaTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickCignaInternational">
+                  </a> <!-- testClickCignaInternational -->
+                  <span class="method-name">testClickCignaInternational</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickContactUs">
+                  </a> <!-- testClickContactUs -->
+                  <span class="method-name">testClickContactUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickEspanol">
+                  </a> <!-- testClickEspanol -->
+                  <span class="method-name">testClickEspanol</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickPrivacy">
+                  </a> <!-- testClickPrivacy -->
+                  <span class="method-name">testClickPrivacy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFindDoctor">
+                  </a> <!-- testFindDoctor -->
+                  <span class="method-name">testFindDoctor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBar">
+                  </a> <!-- testSearchBar -->
+                  <span class="method-name">testSearchBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSignIn">
+                  </a> <!-- testSignIn -->
+                  <span class="method-name">testSignIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cigna_Automation-class-passed -->
+          <div class="suite-Cigna_Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CignaTest.CignaTests3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testBuyingInsuranceButton">
+                  </a> <!-- testBuyingInsuranceButton -->
+                  <span class="method-name">testBuyingInsuranceButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClickHealthcareReform">
+                  </a> <!-- testClickHealthcareReform -->
+                  <span class="method-name">testClickHealthcareReform</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCommonInsurance">
+                  </a> <!-- testCommonInsurance -->
+                  <span class="method-name">testCommonInsurance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCopayButton">
+                  </a> <!-- testCopayButton -->
+                  <span class="method-name">testCopayButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHowToShopButton">
+                  </a> <!-- testHowToShopButton -->
+                  <span class="method-name">testHowToShopButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProviderButton">
+                  </a> <!-- testProviderButton -->
+                  <span class="method-name">testProviderButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUnderstandingInsurance">
+                  </a> <!-- testUnderstandingInsurance -->
+                  <span class="method-name">testUnderstandingInsurance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Cigna_Automation-class-passed -->
+        </div> <!-- panel Cigna_Automation -->
+        <div panel-name="test-xml-Cigna_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/mac/IdeaProjects/Group8Automation/Cigna/target/test-classes/cignaTestRunner.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Cigna Automation&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;useCloudEnv&quot; value=&quot;false&quot;/&gt;
+  &lt;parameter name=&quot;os&quot; value=&quot;OS X&quot;/&gt;
+  &lt;parameter name=&quot;os_version&quot; value=&quot;Sierra&quot;/&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;60.0&quot;/&gt;
+  &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;cloudEnvName&quot; value=&quot;browserstack&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.cigna.com/&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Cigna&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CignaTest.CignaTests&quot;/&gt;
+      &lt;class name=&quot;CignaTest.CignaTests2&quot;/&gt;
+      &lt;class name=&quot;CignaTest.CignaTests3&quot;/&gt;
+      &lt;class name=&quot;CignaTest.CignaTests4&quot;/&gt;
+      &lt;class name=&quot;CignaTest.CignaTests5&quot;/&gt;
+      &lt;class name=&quot;CignaTest.CignaTests6&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Cigna --&gt;
+&lt;/suite&gt; &lt;!-- Cigna Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Cigna_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Cigna Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Cigna (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Cigna_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Cigna Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Cigna_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Cigna Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Cigna_Automation');
+function tableData_Cigna_Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(42);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testEatingDisordersButon')
+data.setCell(0, 2, 'CignaTest.CignaTests5')
+data.setCell(0, 3, 20391);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testClickHealthcareReform')
+data.setCell(1, 2, 'CignaTest.CignaTests3')
+data.setCell(1, 3, 5762);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testClickCignaInternational')
+data.setCell(2, 2, 'CignaTest.CignaTests')
+data.setCell(2, 3, 4366);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testClickInternationalInsurance')
+data.setCell(3, 2, 'CignaTest.CignaTests2')
+data.setCell(3, 3, 4313);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testCopayButton')
+data.setCell(4, 2, 'CignaTest.CignaTests3')
+data.setCell(4, 3, 4125);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testDentalPlanButton')
+data.setCell(5, 2, 'CignaTest.CignaTests5')
+data.setCell(5, 3, 3748);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testClickMentalHealth')
+data.setCell(6, 2, 'CignaTest.CignaTests6')
+data.setCell(6, 3, 3678);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testClaimsButton')
+data.setCell(7, 2, 'CignaTest.CignaTests4')
+data.setCell(7, 3, 3595);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testDentalPlanButton')
+data.setCell(8, 2, 'CignaTest.CignaTests2')
+data.setCell(8, 3, 3554);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testAutismButton')
+data.setCell(9, 2, 'CignaTest.CignaTests5')
+data.setCell(9, 3, 3471);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testClickSuicideButton')
+data.setCell(10, 2, 'CignaTest.CignaTests6')
+data.setCell(10, 3, 3468);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testProviderButton')
+data.setCell(11, 2, 'CignaTest.CignaTests3')
+data.setCell(11, 3, 3415);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testClickLgbtButton')
+data.setCell(12, 2, 'CignaTest.CignaTests6')
+data.setCell(12, 3, 3395);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testClickFamilyButton')
+data.setCell(13, 2, 'CignaTest.CignaTests6')
+data.setCell(13, 3, 3387);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testCustomerServicesButton')
+data.setCell(14, 2, 'CignaTest.CignaTests4')
+data.setCell(14, 3, 3314);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testClickMilitaryButton')
+data.setCell(15, 2, 'CignaTest.CignaTests6')
+data.setCell(15, 3, 3311);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testRequestIdCard')
+data.setCell(16, 2, 'CignaTest.CignaTests4')
+data.setCell(16, 3, 3300);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testClickSubstanceButton')
+data.setCell(17, 2, 'CignaTest.CignaTests6')
+data.setCell(17, 3, 3287);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testOtherSuplementalInsurance')
+data.setCell(18, 2, 'CignaTest.CignaTests2')
+data.setCell(18, 3, 3252);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testFindingButton')
+data.setCell(19, 2, 'CignaTest.CignaTests2')
+data.setCell(19, 3, 3252);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testExercisesButton')
+data.setCell(20, 2, 'CignaTest.CignaTests5')
+data.setCell(20, 3, 3240);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testCommonInsurance')
+data.setCell(21, 2, 'CignaTest.CignaTests3')
+data.setCell(21, 3, 3213);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testClickHsaButton')
+data.setCell(22, 2, 'CignaTest.CignaTests4')
+data.setCell(22, 3, 3163);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testCignaMobileAppButton')
+data.setCell(23, 2, 'CignaTest.CignaTests4')
+data.setCell(23, 3, 3153);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testBuyingInsuranceButton')
+data.setCell(24, 2, 'CignaTest.CignaTests3')
+data.setCell(24, 3, 2986);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testClickHealthyAging')
+data.setCell(25, 2, 'CignaTest.CignaTests6')
+data.setCell(25, 3, 2953);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testProgramsButton')
+data.setCell(26, 2, 'CignaTest.CignaTests4')
+data.setCell(26, 3, 2920);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testDisasterResourcesButton')
+data.setCell(27, 2, 'CignaTest.CignaTests5')
+data.setCell(27, 3, 2818);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testHowToShopButton')
+data.setCell(28, 2, 'CignaTest.CignaTests3')
+data.setCell(28, 3, 2791);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testClickPrivacy')
+data.setCell(29, 2, 'CignaTest.CignaTests')
+data.setCell(29, 3, 2746);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testEatingWellButton')
+data.setCell(30, 2, 'CignaTest.CignaTests5')
+data.setCell(30, 3, 2695);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testPrescriptionButton')
+data.setCell(31, 2, 'CignaTest.CignaTests4')
+data.setCell(31, 3, 2366);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testMemberSources')
+data.setCell(32, 2, 'CignaTest.CignaTests2')
+data.setCell(32, 3, 2118);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testClickContactUs')
+data.setCell(33, 2, 'CignaTest.CignaTests')
+data.setCell(33, 3, 2008);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testUnderstandingInsurance')
+data.setCell(34, 2, 'CignaTest.CignaTests3')
+data.setCell(34, 3, 1910);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testHealthAndWellnessButton')
+data.setCell(35, 2, 'CignaTest.CignaTests5')
+data.setCell(35, 3, 1738);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testIndividualsAndFamilyButton')
+data.setCell(36, 2, 'CignaTest.CignaTests2')
+data.setCell(36, 3, 1730);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testPlansAndServices')
+data.setCell(37, 2, 'CignaTest.CignaTests2')
+data.setCell(37, 3, 1702);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testFindDoctor')
+data.setCell(38, 2, 'CignaTest.CignaTests')
+data.setCell(38, 3, 1563);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testSearchBar')
+data.setCell(39, 2, 'CignaTest.CignaTests')
+data.setCell(39, 3, 1346);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testClickEspanol')
+data.setCell(40, 2, 'CignaTest.CignaTests')
+data.setCell(40, 3, 1049);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testSignIn')
+data.setCell(41, 2, 'CignaTest.CignaTests')
+data.setCell(41, 3, 236);
+window.suiteTableData['Cigna_Automation']= { tableData: data, tableDiv: 'times-div-Cigna_Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Cigna_Automation">
+              </div> <!-- times-div-Cigna_Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Cigna_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Cigna Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Cigna_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">5 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">CignaTest.CignaTests6</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">CignaTest.CignaTests2</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">CignaTest.CignaTests5</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">CignaTest.CignaTests4</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">CignaTest.CignaTests3</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">generateReport</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Cigna_Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">CignaTest.CignaTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests.testClickCignaInternational())</span>
+                <span class="method-start">6812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">6813 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickCignaInternational</span>
+                <span class="method-start">6842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">11209 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">11325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">11325 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests.testClickContactUs())</span>
+                <span class="method-start">16856 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">16856 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickContactUs</span>
+                <span class="method-start">16859 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">18868 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">18973 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">18974 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests.testClickEspanol())</span>
+                <span class="method-start">23758 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">23759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickEspanol</span>
+                <span class="method-start">23762 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">24812 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">24913 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">24913 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests.testClickPrivacy())</span>
+                <span class="method-start">29916 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">29916 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickPrivacy</span>
+                <span class="method-start">29919 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">32665 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">32777 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">32778 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests.testFindDoctor())</span>
+                <span class="method-start">37248 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">37248 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFindDoctor</span>
+                <span class="method-start">37251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">38814 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">38915 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">38916 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests.testSearchBar())</span>
+                <span class="method-start">43436 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">43437 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchBar</span>
+                <span class="method-start">43439 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">44785 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">44881 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">44881 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests.testSignIn())</span>
+                <span class="method-start">49231 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">49232 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSignIn</span>
+                <span class="method-start">49234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">49470 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">49574 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CignaTest.CignaTests2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">49576 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests2.testClickInternationalInsurance())</span>
+                <span class="method-start">54120 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">54120 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickInternationalInsurance</span>
+                <span class="method-start">54121 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">58434 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">58553 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">58553 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests2.testDentalPlanButton())</span>
+                <span class="method-start">63547 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">63548 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testDentalPlanButton</span>
+                <span class="method-start">63550 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">67108 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">67217 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">67217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests2.testFindingButton())</span>
+                <span class="method-start">72650 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">72650 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFindingButton</span>
+                <span class="method-start">72653 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">75906 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">76013 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">76013 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests2.testIndividualsAndFamilyButton())</span>
+                <span class="method-start">81057 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">81058 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testIndividualsAndFamilyButton</span>
+                <span class="method-start">81060 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">82790 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">82893 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">82894 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests2.testMemberSources())</span>
+                <span class="method-start">87030 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">87030 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testMemberSources</span>
+                <span class="method-start">87032 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">89150 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">89253 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">89253 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests2.testOtherSuplementalInsurance())</span>
+                <span class="method-start">94329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">94329 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testOtherSuplementalInsurance</span>
+                <span class="method-start">94331 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">97583 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">97691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">97691 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests2.testPlansAndServices())</span>
+                <span class="method-start">102431 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">102432 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPlansAndServices</span>
+                <span class="method-start">102434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">104136 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">104236 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CignaTest.CignaTests3</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">104237 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests3.testBuyingInsuranceButton())</span>
+                <span class="method-start">108733 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">108734 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testBuyingInsuranceButton</span>
+                <span class="method-start">108735 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">111721 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">111829 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">111829 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests3.testClickHealthcareReform())</span>
+                <span class="method-start">118556 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">118557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickHealthcareReform</span>
+                <span class="method-start">118559 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">124322 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">124429 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">124430 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests3.testCommonInsurance())</span>
+                <span class="method-start">130494 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">130494 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCommonInsurance</span>
+                <span class="method-start">130495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">133708 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">133806 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">133807 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests3.testCopayButton())</span>
+                <span class="method-start">138665 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">138666 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCopayButton</span>
+                <span class="method-start">138667 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">142793 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">142899 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">142899 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests3.testHowToShopButton())</span>
+                <span class="method-start">147315 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">147315 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHowToShopButton</span>
+                <span class="method-start">147316 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">150107 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">150210 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">150211 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests3.testProviderButton())</span>
+                <span class="method-start">155405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">155405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testProviderButton</span>
+                <span class="method-start">155407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">158822 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">158923 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">158923 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests3.testUnderstandingInsurance())</span>
+                <span class="method-start">163223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">163223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUnderstandingInsurance</span>
+                <span class="method-start">163224 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">165135 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">165234 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CignaTest.CignaTests4</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">165234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests4.testCignaMobileAppButton())</span>
+                <span class="method-start">170523 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">170523 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCignaMobileAppButton</span>
+                <span class="method-start">170524 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">173677 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">173785 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">173785 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests4.testClaimsButton())</span>
+                <span class="method-start">178286 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">178286 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClaimsButton</span>
+                <span class="method-start">178287 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">181882 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">181989 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">181989 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests4.testClickHsaButton())</span>
+                <span class="method-start">187533 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">187533 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickHsaButton</span>
+                <span class="method-start">187534 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">190697 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">190815 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">190815 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests4.testCustomerServicesButton())</span>
+                <span class="method-start">195639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">195639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCustomerServicesButton</span>
+                <span class="method-start">195640 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">198954 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">199059 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">199060 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests4.testPrescriptionButton())</span>
+                <span class="method-start">203475 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">203476 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testPrescriptionButton</span>
+                <span class="method-start">203477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">205843 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">205947 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">205948 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests4.testProgramsButton())</span>
+                <span class="method-start">211303 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">211303 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testProgramsButton</span>
+                <span class="method-start">211304 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">214224 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">214324 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">214324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests4.testRequestIdCard())</span>
+                <span class="method-start">219460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">219460 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRequestIdCard</span>
+                <span class="method-start">219461 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">222761 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">222869 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CignaTest.CignaTests5</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">222870 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests5.testAutismButton())</span>
+                <span class="method-start">227504 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">227505 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAutismButton</span>
+                <span class="method-start">227506 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">230977 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">231085 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">231085 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests5.testDentalPlanButton())</span>
+                <span class="method-start">236510 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">236511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDentalPlanButton</span>
+                <span class="method-start">236512 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">240260 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">240369 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">240369 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests5.testDisasterResourcesButton())</span>
+                <span class="method-start">245365 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">245366 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDisasterResourcesButton</span>
+                <span class="method-start">245367 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">248186 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">248294 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">248295 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests5.testEatingDisordersButon())</span>
+                <span class="method-start">253637 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">253637 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEatingDisordersButon</span>
+                <span class="method-start">253638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">274030 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">274138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">274138 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests5.testEatingWellButton())</span>
+                <span class="method-start">280160 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">280160 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testEatingWellButton</span>
+                <span class="method-start">280161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">282857 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">282963 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">282963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests5.testExercisesButton())</span>
+                <span class="method-start">287402 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">287402 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testExercisesButton</span>
+                <span class="method-start">287403 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">290643 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">290749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">290749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests5.testHealthAndWellnessButton())</span>
+                <span class="method-start">295257 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">295257 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHealthAndWellnessButton</span>
+                <span class="method-start">295258 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">296996 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">297102 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CignaTest.CignaTests6</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">297103 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests6.testClickFamilyButton())</span>
+                <span class="method-start">301517 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">301517 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickFamilyButton</span>
+                <span class="method-start">301518 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">304905 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">305020 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">305020 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests6.testClickHealthyAging())</span>
+                <span class="method-start">309471 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">309471 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickHealthyAging</span>
+                <span class="method-start">309473 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">312426 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">312537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">312537 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests6.testClickLgbtButton())</span>
+                <span class="method-start">317561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">317561 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickLgbtButton</span>
+                <span class="method-start">317562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">320957 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">321061 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">321062 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests6.testClickMentalHealth())</span>
+                <span class="method-start">325803 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">325803 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickMentalHealth</span>
+                <span class="method-start">325804 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">329482 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">329597 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">329597 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests6.testClickMilitaryButton())</span>
+                <span class="method-start">334009 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">334009 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickMilitaryButton</span>
+                <span class="method-start">334010 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">337321 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">337421 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">337421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests6.testClickSubstanceButton())</span>
+                <span class="method-start">342179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">342179 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickSubstanceButton</span>
+                <span class="method-start">342180 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">345467 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">345583 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(false, browserstack, OS X, Sierra, chrome, 60.0, https://www.cigna.com/)</span>
+                <span class="method-start">345584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">startExtent(public void CignaTest.CignaTests6.testClickSuicideButton())</span>
+                <span class="method-start">349934 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">initElements</span>
+                <span class="method-start">349934 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testClickSuicideButton</span>
+                <span class="method-start">349935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterEachTestMethod</span>
+                <span class="method-start">353403 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanUP</span>
+                <span class="method-start">353512 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CignaTest.CignaTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">generateReport</span>
+                <span class="method-start">353570 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
