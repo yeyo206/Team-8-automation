@@ -1,30 +1,23 @@
 package AmazonMain;
 
 import Base.CommonAPI;
+
 import org.openqa.selenium.By;
+
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
 import java.util.ArrayList;
 import java.util.List;
-
 public class AmazonMainTestCases extends CommonAPI {
 
     String user;
     String password;
-
-    /*@BeforeMethod
-    public void amazonSetup(){
-        setUp(UrlSetup.Amazon);
-    }*/
-    WebDriverWait wait;
-
     @FindBy(id = "twotabsearchtextbox") public static WebElement searchBox;
     @FindBy(className = "nav-input") public static WebElement search;
     @FindBy(xpath = "//a[@href='/gp/navigation/redirector.html/ref=sign-in-redirect?ie=UTF8&associationHandle=usflex&currentPageURL=https%3A%2F%2Fwww.amazon.com%2F%3Fref_%3Dnav_custrec_signin&pageType=Gateway&switchAccount=&yshURL=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fyourstore%2Fhome%3Fie%3DUTF8%26ref_%3Dnav_custrec_signin']") public static WebElement signInButton;
