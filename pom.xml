@@ -12,6 +12,7 @@
         <module>Generic</module>
         <module>Cigna</module>
         <module>Amazon</module>
+        <module>AutomationPractice</module>
     </modules>
     <dependencyManagement>
         <dependencies>

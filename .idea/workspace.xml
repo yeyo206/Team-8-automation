@@ -27,12 +27,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\AutomationPractice\src\test" />
       <recent name="$PROJECT_DIR$/Cigna/src/test" />
     </key>
   </component>
@@ -48,7 +50,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CignaTestsRightTopButtons.testClickCignaInternational">
+  <component name="RunManager" selected="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/AutomationPractice/src/test/resources/AutoPracTestRunner.xml">
+    <configuration name="C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Amazon/src/test/java/Resources/AmazonTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/java/Resources/AmazonTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/aleja/OneDrive/Desktop/Team-8-automation/AutomationPractice/src/test/resources/AutoPracTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/AutomationPractice/src/test/resources/AutoPracTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CignaTestsRightTopButtons.testClickCignaInternational" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Cigna" />
       <extension name="coverage">
@@ -67,53 +89,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmployersAndBrokers.testClickCignaFitBitButton" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Cigna" />
+    <configuration name="TestHomePage.testCartButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CignaTest.*" />
+          <option name="PATTERN" value="TestAutomationPractice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="CignaTest" />
-      <option name="MAIN_CLASS_NAME" value="CignaTest.TestEmployersAndBrokers" />
-      <option name="METHOD_NAME" value="testClickCignaFitBitButton" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestEmployersAndBrokers.testClickHsaAndHraButton" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Cigna" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CignaTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CignaTest" />
-      <option name="MAIN_CLASS_NAME" value="CignaTest.TestEmployersAndBrokers" />
-      <option name="METHOD_NAME" value="testClickHsaAndHraButton" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestHealthAndWellnessListButtons.testAutismButton" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Cigna" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CignaTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CignaTest" />
-      <option name="MAIN_CLASS_NAME" value="CignaTest.TestHealthAndWellnessListButtons" />
-      <option name="METHOD_NAME" value="testAutismButton" />
+      <option name="PACKAGE_NAME" value="TestAutomationPractice" />
+      <option name="MAIN_CLASS_NAME" value="TestAutomationPractice.TestHomePage" />
+      <option name="METHOD_NAME" value="testCartButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -141,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/AutomationPractice/src/test/resources/AutoPracTestRunner.xml" />
+        <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Amazon/src/test/java/Resources/AmazonTestRunner.xml" />
+        <item itemvalue="TestNG.TestHomePage.testCartButton" />
         <item itemvalue="TestNG.CignaTestsRightTopButtons.testClickCignaInternational" />
         <item itemvalue="TestNG.TestIndividualsAndFamilyBar.testIndividualsAndFamilyButton" />
-        <item itemvalue="TestNG.TestHealthAndWellnessListButtons.testAutismButton" />
-        <item itemvalue="TestNG.TestEmployersAndBrokers.testClickCignaFitBitButton" />
-        <item itemvalue="TestNG.TestEmployersAndBrokers.testClickHsaAndHraButton" />
       </list>
     </recent_temporary>
   </component>
@@ -174,78 +160,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Cigna</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

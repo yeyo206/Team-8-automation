@@ -42,6 +42,7 @@ public class CommonAPI {
     public static ExtentReports extent;
     private static Set<String> windows = null;
 
+
     @BeforeSuite
     public void extentSetup(ITestContext context) {
         ExtentManager.setOutpuDirectory(context);
@@ -112,11 +113,12 @@ public class CommonAPI {
             }
         }else{
             //getLocalDriver(os, browserName);
-            System.setProperty("webdriver.chrome.driver", "/Users/mac/IdeaProjects/Group8Automation/Drivers/chromedriver 3");
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\aleja\\OneDrive\\Desktop\\Team-8-automation\\Drivers\\77.exe");
             driver = new ChromeDriver();
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
         driver.get(url);
     }
 
