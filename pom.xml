@@ -13,6 +13,7 @@
         <module>Cigna</module>
         <module>Amazon</module>
         <module>AutomationPractice</module>
+        <module>UnitedHealthCare</module>
     </modules>
     <dependencyManagement>
         <dependencies>
