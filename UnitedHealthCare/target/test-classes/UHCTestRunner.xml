@@ -16,7 +16,8 @@
     <test name = "United Health Care Test Cases">
         <classes>
             <!--<class name="UHCTest.UHCHomePage"/> -->
-            <class name="UHCTest.UHCPlans"/>
+            <!--<class name="UHCTest.UHCPlans"/> -->
+            <class name="UHCTest.UHCShopInsPlans"/>
         </classes>
     </test>
 

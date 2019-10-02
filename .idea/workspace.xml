@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29272661-0d00-4fd7-b1ac-551487d294b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/UHCMain/UHCTestCases.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UHCTest/UHCHomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UHCTest/UHCPlans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/resources/UHCTestRunner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UHCTest/UHCShopInsPlans.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/UHCMain/UHCTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/UHCMain/UHCTestCases.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UHCTest/UHCPlans.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UHCTest/UHCPlans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/test/resources/UHCTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/resources/UHCTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/UHCMain/UHCTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/UHCMain/UHCTestCases.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/UHCTest/UHCPlans.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/UHCTest/UHCPlans.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/UHCTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/UHCTestRunner.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,24 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CignaTestsRightTopButtons.testClickCignaInternational" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Cigna" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CignaTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CignaTest" />
-      <option name="MAIN_CLASS_NAME" value="CignaTest.CignaTestsRightTopButtons" />
-      <option name="METHOD_NAME" value="testClickCignaInternational" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestHomePage.testCartButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AutomationPractice" />
       <extension name="coverage">
@@ -138,13 +123,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UHCPlans.testSmallBusinessPlans" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitedHealthCare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UHCTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UHCTest" />
+      <option name="MAIN_CLASS_NAME" value="UHCTest.UHCPlans" />
+      <option name="METHOD_NAME" value="testSmallBusinessPlans" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/UnitedHealthCare/src/test/resources/UHCTestRunner.xml" />
+        <item itemvalue="TestNG.UHCPlans.testSmallBusinessPlans" />
         <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/AutomationPractice/src/test/resources/AutoPracTestRunner.xml" />
         <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Amazon/src/test/java/Resources/AmazonTestRunner.xml" />
         <item itemvalue="TestNG.TestHomePage.testCartButton" />
-        <item itemvalue="TestNG.CignaTestsRightTopButtons.testClickCignaInternational" />
       </list>
     </recent_temporary>
   </component>
@@ -173,5 +176,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/UHCTest/UHCShopInsPlans.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

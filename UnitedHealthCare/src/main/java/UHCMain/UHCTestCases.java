@@ -18,8 +18,16 @@ public class UHCTestCases extends CommonAPI {
     @FindBy(xpath = "//b[contains(text(),'accident insurance')]") public static WebElement accidentInsuranceHeader;
     @FindBy(xpath = "//a[contains(text(),'Find a Doctor')]") public static WebElement findADoctorButton;
     @FindBy(xpath = "//a[contains(text(),'Contact us')]") public static WebElement contactUsButton;
-    @FindBy(xpath = "//a[@href='https://www.aarpmedicareplans.com/health-plans.html?WT.mc_id=8009511']") public static WebElement medicarePlans;
+    @FindBy(xpath = "//a[contains(text(),'View Medicare plans')]") public static WebElement medicarePlans;
     @FindBy(xpath = "//a[@href='https://www.uhone.com/shop/#?LeadsourceName=UHC-Website']") public static WebElement individualNFamiliesPlans;
+    @FindBy(xpath = "//a[@href='https://www.uhone.com/shop/#?LeadSourceName=UHC-Website-STM']") public static WebElement shortTermPlans;
+    @FindBy(xpath = "//a[contains(text(),'View small business plans')]") public static WebElement smallBusinessPlans;
+    @FindBy(xpath = "//a[@href='https://www.uhone.com/shop/#/census?LeadSourceName=UHC-Website-Dental']") public static WebElement dentalPlans;
+    @FindBy(xpath = "//a[@href='https://www.uhccommunityplan.com']") public static WebElement medicaidPlans;
+    @FindBy(xpath = "//a[@href='/employer']") public static WebElement smallBusinessPlansHeader;
+    @FindBy(xpath = "//input[@class='ng-pristine ng-valid ng-valid-maxlength']") public static WebElement medicarePlansZipCode;
+    @FindBy(xpath = "//a[@class='trigger-closed']") public static WebElement shopMedicareSupplementPlansButton;
+    @FindBy(xpath = "//button[contains(text(),'No, thanks')]") public static WebElement noThanksButton;
 
     public void homeButton() {
         homeButton.click();
@@ -57,12 +65,33 @@ public class UHCTestCases extends CommonAPI {
     public void medicarePlans() {
         medicarePlans.click();
         String text = medicarePlans.getText();
-        Assert.assertEquals(text, "Medicare Plans");
+        Assert.assertEquals(text, "View Medicare plans");
     }
     public void individualNFamiliesPlans() {
         individualNFamiliesPlans.click();
         Assert.assertTrue(individualNFamiliesPlans.getText().contains("individual or family plans"));
     }
-
-
+    public void shortTermPlans() {
+        shortTermPlans.click();
+        Assert.assertTrue(shortTermPlans.getText().contains("short term plans"));
+    }
+    public void smallBuisinessPlans() {
+        smallBusinessPlans.click();
+        Assert.assertTrue(smallBusinessPlans.getText().contains("small business"));
+    }
+    public void dentalPlans() {
+        dentalPlans.click();
+        Assert.assertTrue(dentalPlans.getText().contains("dental plans"));
+    }
+    public void medicaidPlans() {
+        medicaidPlans.click();
+        String text = smallBusinessPlansHeader.getText();
+        Assert.assertEquals(text, "Employers");
+    }
+    public void shopMedicareSupplementPlans() {
+        medicarePlans();
+        noThanksButton.click();
+        medicarePlansZipCode.sendKeys("33186", Keys.ENTER);
+        shopMedicareSupplementPlansButton.click();
+    }
 }
