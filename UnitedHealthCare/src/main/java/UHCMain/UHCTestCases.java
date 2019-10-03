@@ -28,6 +28,9 @@ public class UHCTestCases extends CommonAPI {
     @FindBy(xpath = "//input[@class='ng-pristine ng-valid ng-valid-maxlength']") public static WebElement medicarePlansZipCode;
     @FindBy(xpath = "//a[@class='trigger-closed']") public static WebElement shopMedicareSupplementPlansButton;
     @FindBy(xpath = "//button[contains(text(),'No, thanks')]") public static WebElement noThanksButton;
+    @FindBy(xpath = "//input[@name='zipCode']") public static WebElement zipCodeInput;
+    @FindBy(xpath = "//label[contains(text(),'Male')]") public static WebElement male;
+    @FindBy(className = "form-control mc-input-short ng-pristine ng-valid ng-not-empty ng-valid-age-not-in-range ng-valid-date-invalid ng-valid-required ng-valid-maxlength ng-valid-mask ng-touched") public static WebElement DOB;
 
     public void homeButton() {
         homeButton.click();
@@ -67,7 +70,7 @@ public class UHCTestCases extends CommonAPI {
         String text = medicarePlans.getText();
         Assert.assertEquals(text, "View Medicare plans");
     }
-    public void individualNFamiliesPlans() {
+    public void individualOrFamiliesPlans() {
         individualNFamiliesPlans.click();
         Assert.assertTrue(individualNFamiliesPlans.getText().contains("individual or family plans"));
     }
@@ -93,5 +96,11 @@ public class UHCTestCases extends CommonAPI {
         noThanksButton.click();
         medicarePlansZipCode.sendKeys("33186", Keys.ENTER);
         shopMedicareSupplementPlansButton.click();
+    }
+    public void shopIndividualOrFamilyPlans() {
+        individualOrFamiliesPlans();
+        zipCodeInput.sendKeys("33186");
+        male.click();
+        DOB.sendKeys("06121997", Keys.ENTER);
     }
 }

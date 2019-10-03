@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29272661-0d00-4fd7-b1ac-551487d294b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UHCTest/UHCShopInsPlans.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/UHCMain/UHCTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/main/java/UHCMain/UHCTestCases.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UHCTest/UHCPlans.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UHCTest/UHCPlans.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/test/resources/UHCTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/resources/UHCTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UHCTest/UHCShopInsPlans.java" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/src/test/java/UHCTest/UHCShopInsPlans.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/classes/UHCMain/UHCTestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/classes/UHCMain/UHCTestCases.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/UHCTest/UHCPlans.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/UHCTest/UHCPlans.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/UHCTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/UHCTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/UHCTest/UHCShopInsPlans.class" beforeDir="false" afterPath="$PROJECT_DIR$/UnitedHealthCare/target/test-classes/UHCTest/UHCShopInsPlans.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,16 +175,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/UnitedHealthCare/src/test/java/UHCTest/UHCShopInsPlans.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

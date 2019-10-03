@@ -19,7 +19,7 @@ public class UHCPlans extends UHCTestCases {
     }
     @Test
     public void testIndividualNFamiliesPlans() {
-        individualNFamiliesPlans();
+        individualOrFamiliesPlans();
     }
     @Test
     public void testShortTermPlans() {

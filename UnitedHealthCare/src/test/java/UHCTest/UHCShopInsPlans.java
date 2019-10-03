@@ -16,5 +16,11 @@ public class UHCShopInsPlans extends UHCTestCases {
     public void testSupplementInsPlans() {
         shopMedicareSupplementPlans();
     }
+    @Test
+    public void testIndividualsOrFamiliesPlans() {
+        shopIndividualOrFamilyPlans();
+    }
+
+
 
 }
