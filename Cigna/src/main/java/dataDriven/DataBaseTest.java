@@ -1,3 +1,4 @@
+package dataDriven;
 
 import com.mongodb.BasicDBObject;
 import database.ConnectToMongoDB;
@@ -11,7 +12,7 @@ import java.util.List;
 
 public class DataBaseTest {
 
-    static BasicDBObject object = new BasicDBObject();
+    public static BasicDBObject object = new BasicDBObject();
 
     static void insertToMongo(String stName, String stID, String stDOB){
         ConnectToMongoDB.insertIntoToMongoDB(new User(stName, stID, stDOB), "students");

@@ -1,3 +1,4 @@
+package dataDriven;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
@@ -26,7 +27,7 @@ public class ExcelReader {
         }
     }
 
-    public static List<String> getItems()throws FileNotFoundException, IOException {
+    public static List<String> getItems() throws FileNotFoundException, IOException{
         File file = new File("/Users/mac/Documents/Team-8-automation/DataManagement/Items List.xlsx");
         FileInputStream fis = new FileInputStream(file);
         XSSFWorkbook workBook = new XSSFWorkbook(fis);

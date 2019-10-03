@@ -209,6 +209,12 @@ public class CommonAPI {
         }
     }
 
+    public void sendKeysByChar(String keys, WebElement element){
+        Arrays.asList(keys.toCharArray()).forEach((s) -> {
+            element.sendKeys(String.valueOf(s));
+        });
+    }
+
     public void typeOnElementNEnter(String locator, String value){
         try {
             driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
