@@ -25,4 +25,5 @@ public class DataDrivenTests extends DataDrivenTest {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchUsingMongoDB();
     }
+
 }

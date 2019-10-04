@@ -103,6 +103,10 @@ public class CignaMainTestCases extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(), 'AD&D Insurance')]") public static WebElement addInsuranceButton;
     @FindBy(xpath = "(//a[contains(text(), 'Accidental Injury Insurance')])[1]")
     public static WebElement accidentalButton;
+    @FindBy(xpath = "//a[contains(text(), 'Hospital Care Insurance')]") public static WebElement hospitalCareButton;
+    @FindBy(xpath = "//a[contains(text(), 'Group Disability Insurance')]")public static WebElement groupDisabilityButton;
+    @FindBy(xpath = "//a[contains(text(), 'Cigna Leave Solutions®')]")public static WebElement cignaLeaveSolutions;
+    @FindBy(xpath = "//a[contains(text(), 'Funding Solutions')]") public static WebElement fundingSolutionsButton;
 
     public void clickPrivacyButton() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -558,8 +562,29 @@ public class CignaMainTestCases extends CommonAPI {
         accidentalButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Accidental Injury Insurance"));
     }
-
-
-
+    public void clickHospitalCareInsurance(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickPlanAndServicesForEmployers();
+        hospitalCareButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Hospital Care (Indemnity) Insurance"));
+    }
+    public void clickGroupDisabilityButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickPlanAndServicesForEmployers();
+        groupDisabilityButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Disability Insurance"));
+    }
+    public void clickCignaLeaveSolutionsButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickPlanAndServicesForEmployers();
+        cignaLeaveSolutions.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna Leave Solutions® – FMLA/ADA/Leave Administration"));
+    }
+    public void clickFundingSolutionButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickPlanAndServicesForEmployers();
+        fundingSolutionsButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Funding Solutions"));
+    }
 
 }

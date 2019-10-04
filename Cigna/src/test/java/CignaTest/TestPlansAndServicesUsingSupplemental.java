@@ -29,5 +29,26 @@ public class TestPlansAndServicesUsingSupplemental extends CignaMainTestCases {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickAccidentalInsuranceButton();
     }
+    @Test
+    public void clickHospitalInsuranceButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickHospitalCareInsurance();
+    }
+    @Test
+    public void clickGroupDisabilityButtonT(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickGroupDisabilityButton();
+    }
+    @Test
+    public void clickCignaLeaveSolutionsT(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickCignaLeaveSolutionsButton();
+    }
+    @Test
+    public void clickFundingSolutionsT(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickFundingSolutionButton();
+    }
+
 
 }

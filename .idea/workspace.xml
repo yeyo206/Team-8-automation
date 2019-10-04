@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9efcc0f8-1e28-418b-9b57-860c3b46652a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cigna/Extent-Report/ExtentReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/Extent-Report/ExtentReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cigna/src/main/java/CignaMain/CignaMainTestCases.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/main/java/CignaMain/CignaMainTestCases.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/src/main/java/CignaMain/DataDrivenTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/main/java/CignaMain/DataDrivenTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTestsRightTopButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTestsRightTopButtons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestEmployersAndBrokers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestEmployersAndBrokers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestHealthAndWellnessListButtonList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestHealthAndWellnessListButtonList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestHealthAndWellnessListButtons.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestHealthAndWellnessListButtons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestIndividualsAndFamilyBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestIndividualsAndFamilyBar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestPlanAndServicesFromEmployers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestPlanAndServicesFromEmployers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestPlanAndServicesFromEmployersExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestPlanAndServicesFromEmployersExtension.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestPlansAndServicesUsingSupplemental.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestPlansAndServicesUsingSupplemental.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestUnderstandingInsuranceList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestUnderstandingInsuranceList2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestsUnderstandingInsuranceList.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestsUnderstandingInsuranceList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cigna/src/test/java/DataDriven/DataDrivenTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cigna/src/test/java/DataDriven/DataDrivenTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestPlansAndServicesUsingSupplemental.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="311">
+              <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -49,19 +39,7 @@
         <entry file="file://$PROJECT_DIR$/Cigna/src/main/java/CignaMain/CignaMainTestCases.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="194">
-              <caret line="555" column="134" selection-start-line="555" selection-start-column="134" selection-end-line="555" selection-end-column="134" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cigna/src/main/java/CignaMain/DataDrivenTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="19" column="134" selection-start-line="19" selection-start-column="134" selection-end-line="19" selection-end-column="134" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="582" column="36" lean-forward="true" selection-start-line="582" selection-start-column="36" selection-end-line="582" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -113,12 +91,10 @@
         <option value="$PROJECT_DIR$/Cigna/src/main/java/DataBaseTest.java" />
         <option value="$PROJECT_DIR$/Cigna/src/main/java/ExcelReader.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/Base/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/Cigna/src/test/java/DataDriven/DataDrivenTests.java" />
         <option value="$PROJECT_DIR$/Cigna/src/main/java/dataDriven/ExcelReader.java" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/database/ConnectToMongoDB.java" />
         <option value="$PROJECT_DIR$/Cigna/src/test/resources/cignaTestRunner.xml" />
         <option value="$PROJECT_DIR$/Cigna/src/main/java/dataDriven/DataBaseTest.java" />
-        <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestPlansAndServicesUsingSupplemental.java" />
         <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/CignaTestsRightTopButtons.java" />
         <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestEmployersAndBrokers.java" />
         <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestHealthAndWellnessListButtonList.java" />
@@ -128,8 +104,10 @@
         <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestPlanAndServicesFromEmployersExtension.java" />
         <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestsUnderstandingInsuranceList.java" />
         <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestUnderstandingInsuranceList2.java" />
-        <option value="$PROJECT_DIR$/Cigna/src/main/java/CignaMain/CignaMainTestCases.java" />
         <option value="$PROJECT_DIR$/Cigna/src/main/java/CignaMain/DataDrivenTest.java" />
+        <option value="$PROJECT_DIR$/Cigna/src/test/java/DataDriven/DataDrivenTests.java" />
+        <option value="$PROJECT_DIR$/Cigna/src/main/java/CignaMain/CignaMainTestCases.java" />
+        <option value="$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestPlansAndServicesUsingSupplemental.java" />
       </list>
     </option>
   </component>
@@ -228,6 +206,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="CignaTest" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Team-8-automation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Team-8-automation" type="462c0819:PsiDirectoryNode" />
+              <item name="Cigna" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="DataDriven" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -269,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CignaTestsRightTopButtons">
+  <component name="RunManager" selected="TestNG.TestPlansAndServicesUsingSupplemental.clickFundingSolutionsT">
     <configuration name="CignaTestsRightTopButtons" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Cigna" />
       <extension name="coverage">
@@ -281,42 +268,6 @@
       <option name="PACKAGE_NAME" value="CignaTest" />
       <option name="MAIN_CLASS_NAME" value="CignaTest.CignaTestsRightTopButtons" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPlansAndServicesUsingSupplemental.clickADDInsuranceButtonT" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Cigna" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CignaTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CignaTest" />
-      <option name="MAIN_CLASS_NAME" value="CignaTest.TestPlansAndServicesUsingSupplemental" />
-      <option name="METHOD_NAME" value="clickADDInsuranceButtonT" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPlansAndServicesUsingSupplemental.clickAccidentInjuryButton" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Cigna" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CignaTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CignaTest" />
-      <option name="MAIN_CLASS_NAME" value="CignaTest.TestPlansAndServicesUsingSupplemental" />
-      <option name="METHOD_NAME" value="clickAccidentInjuryButton" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -341,7 +292,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPlansAndServicesUsingSupplemental.clickCriticalIllnessButtonT" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPlansAndServicesUsingSupplemental.clickCignaLeaveSolutionsT" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Cigna" />
       <extension name="coverage">
         <pattern>
@@ -351,7 +302,43 @@
       </extension>
       <option name="PACKAGE_NAME" value="CignaTest" />
       <option name="MAIN_CLASS_NAME" value="CignaTest.TestPlansAndServicesUsingSupplemental" />
-      <option name="METHOD_NAME" value="clickCriticalIllnessButtonT" />
+      <option name="METHOD_NAME" value="clickCignaLeaveSolutionsT" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPlansAndServicesUsingSupplemental.clickFundingSolutionsT" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cigna" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CignaTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CignaTest" />
+      <option name="MAIN_CLASS_NAME" value="CignaTest.TestPlansAndServicesUsingSupplemental" />
+      <option name="METHOD_NAME" value="clickFundingSolutionsT" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPlansAndServicesUsingSupplemental.clickHospitalInsuranceButton" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cigna" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CignaTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CignaTest" />
+      <option name="MAIN_CLASS_NAME" value="CignaTest.TestPlansAndServicesUsingSupplemental" />
+      <option name="METHOD_NAME" value="clickHospitalInsuranceButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -361,11 +348,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestPlansAndServicesUsingSupplemental.clickFundingSolutionsT" />
+        <item itemvalue="TestNG.TestPlansAndServicesUsingSupplemental.clickCignaLeaveSolutionsT" />
+        <item itemvalue="TestNG.TestPlansAndServicesUsingSupplemental.clickHospitalInsuranceButton" />
         <item itemvalue="TestNG.CignaTestsRightTopButtons" />
         <item itemvalue="TestNG.TestPlansAndServicesUsingSupplemental.clickAccidentInjuryButtonT" />
-        <item itemvalue="TestNG.TestPlansAndServicesUsingSupplemental.clickAccidentInjuryButton" />
-        <item itemvalue="TestNG.TestPlansAndServicesUsingSupplemental.clickADDInsuranceButtonT" />
-        <item itemvalue="TestNG.TestPlansAndServicesUsingSupplemental.clickCriticalIllnessButtonT" />
       </list>
     </recent_temporary>
   </component>
@@ -383,12 +370,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestPlanAndServicesFromEmployersExtension_clickBehavioralButtonTest - 2019.10.03 at 21h 33m 59s.xml">
-      <configuration name="TestPlanAndServicesFromEmployersExtension.clickBehavioralButtonTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestPlanAndServicesFromEmployersExtension_clickPopulationButton - 2019.10.03 at 21h 39m 04s.xml">
-      <configuration name="TestPlanAndServicesFromEmployersExtension.clickPopulationButton" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestPlanAndServicesFromEmployersExtension_clickPopulationButton - 2019.10.03 at 21h 40m 00s.xml">
       <configuration name="TestPlanAndServicesFromEmployersExtension.clickPopulationButton" configurationId="TestNG" />
     </history-entry>
@@ -413,12 +394,18 @@
     <history-entry file="CignaTestsRightTopButtons - 2019.10.03 at 22h 51m 34s.xml">
       <configuration name="CignaTestsRightTopButtons" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestPlansAndServicesUsingSupplemental_clickHospitalInsuranceButton - 2019.10.03 at 23h 18m 45s.xml">
+      <configuration name="TestPlansAndServicesUsingSupplemental.clickHospitalInsuranceButton" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestPlansAndServicesUsingSupplemental_clickCignaLeaveSolutionsT - 2019.10.03 at 23h 29m 16s.xml">
+      <configuration name="TestPlansAndServicesUsingSupplemental.clickCignaLeaveSolutionsT" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="816" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26824033" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26824033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -427,7 +414,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32963988" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.37707183" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.37707183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3987952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -624,20 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/DataDriven/DataDrivenTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#380#381#0" expanded="true" />
-            <element signature="e#603#604#0" expanded="true" />
-            <element signature="e#639#640#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cigna/src/test/resources/cignaTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
@@ -790,10 +763,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestPlansAndServicesUsingSupplemental.java">
+    <entry file="file://$PROJECT_DIR$/Cigna/src/main/java/CignaMain/DataDrivenTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="176">
+          <caret line="30" column="134" selection-start-line="30" selection-start-column="134" selection-end-line="30" selection-end-column="134" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/DataDriven/DataDrivenTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -803,14 +786,14 @@
     <entry file="file://$PROJECT_DIR$/Cigna/src/main/java/CignaMain/CignaMainTestCases.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
-          <caret line="555" column="134" selection-start-line="555" selection-start-column="134" selection-end-line="555" selection-end-column="134" />
+          <caret line="582" column="36" lean-forward="true" selection-start-line="582" selection-start-column="36" selection-end-line="582" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cigna/src/main/java/CignaMain/DataDrivenTest.java">
+    <entry file="file://$PROJECT_DIR$/Cigna/src/test/java/CignaTest/TestPlansAndServicesUsingSupplemental.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="19" column="134" selection-start-line="19" selection-start-column="134" selection-end-line="19" selection-end-column="134" />
+        <state relative-caret-position="311">
+          <caret line="49" column="28" lean-forward="true" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
