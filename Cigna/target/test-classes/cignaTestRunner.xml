@@ -20,6 +20,12 @@
             <class name="CignaTest.TestHealthAndWellnessListButtons"></class>
             <class name="CignaTest.TestHealthAndWellnessListButtonList"></class>
             <class name="CignaTest.TestEmployersAndBrokers"></class>
+            <class name="CignaTest.TestPlanAndServicesFromEmployers"></class>
+            <class name="CignaTest.TestPlanAndServicesFromEmployersExtension"></class>
+            <class name="CignaTest.TestPlansAndServicesUsingSupplemental"></class>
+            <class name="DataDriven.DataDrivenTests"></class>
+
+            
         </classes>
     </test>
 

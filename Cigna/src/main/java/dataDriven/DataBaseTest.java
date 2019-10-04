@@ -18,6 +18,10 @@ public class DataBaseTest {
         ConnectToMongoDB.insertIntoToMongoDB(new User(stName, stID, stDOB), "students");
     }
 
+    /**
+     * if need to query use object.put(key, value) to filter the collection to a specific document
+     * else use an empty map to get the whole collection
+     */
     static void insertFromArrayList(List<String> list, String collectionName){
         ConnectToMongoDB c = new ConnectToMongoDB();
         c.insertIntoMongoDB(list, collectionName);

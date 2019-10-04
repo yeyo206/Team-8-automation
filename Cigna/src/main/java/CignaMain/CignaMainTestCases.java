@@ -63,7 +63,8 @@ public class CignaMainTestCases extends CommonAPI {
     @FindBy(xpath = "//a[contains(text() , 'Programs for Members')]") public static WebElement programsForMmbersButton;
     @FindBy(xpath = "//a[contains(text() , 'Autism')]") public static WebElement autismButton;
     @FindBy(xpath = "//a[contains(text() , 'Dental Health')]") public static WebElement dentalHealthButton;
-    @FindBy(xpath = "//a[contains(text() , 'Disaster Resource Center')]") public static WebElement disasterResourceButton;
+    @FindBy(xpath = "//a[contains(text() , 'Disaster Resource Center')]")
+    public static WebElement disasterResourceButton;
     @FindBy (xpath = "//a[contains(text() , 'Eating Disorders')]") public static WebElement  eatingDisordersButton;
     @FindBy (xpath = "//a[contains(text() , 'Eating Well')]") public static WebElement eatingWellbutton;
     @FindBy(xpath = "//a[contains(text() , 'Exercise and Fitness')]") public static WebElement exerciseButton;
@@ -73,12 +74,35 @@ public class CignaMainTestCases extends CommonAPI {
     @FindBy(xpath = "//a[contains(text() , 'Mental Health')]") public static WebElement mentalHealthButton;
     @FindBy(xpath = "//a[contains(text() , 'Military and Veteran Support')]") public static WebElement militaryButton;
     @FindBy(xpath = "//a[contains(text() , 'Substance Use Disorders')]") public static WebElement substanceButton;
-    @FindBy(xpath = "//a[contains(text() , 'Suicide Awareness and Prevention')]")public static WebElement suicideButton;
+    @FindBy(xpath = "//a[contains(text() , 'Suicide Awareness and Prevention')]")
+    public static WebElement suicideButton;
     @FindBy(xpath = "//a[contains(text() , 'Diseases and Conditions')]") public static WebElement diseasesButton;
     @FindBy(xpath = "//a[contains(text() , 'Medical Tests')]") public static WebElement medicalTestButton;
     @FindBy(xpath = "//a[contains(text() , 'Medications')]") public static WebElement medicationButton;
     @FindBy(xpath = "//a[contains(text() , 'HRA and HSA Plans')]") public static WebElement hraAndHsaPlans;
     @FindBy(xpath = "//a[contains(text() , 'Cigna SureFit® Plans')]") public static WebElement cignaSurefitButton;
+    @FindBy(xpath = "//a[contains(text(), 'LocalPlus® Plans')]") public static WebElement localPlusButton;
+    @FindBy(xpath = "//a[contains(text(), 'Open Access Plus Plans')]")
+    public static WebElement openAccessPlusPLanButton;
+    @FindBy(xpath = "//a[contains(text(), 'PPO Plans')]") public static WebElement ppoPlansButton;
+    @FindBy(xpath = "//a[contains(text(), 'HMO Plans')]") public static WebElement hmoPlansButton;
+    @FindBy(xpath = "//a[contains(text(), 'Network Plans')]") public static WebElement networkPlansButton;
+    @FindBy(xpath = "//a[contains(text(), 'Indemnity Plans')]") public static WebElement indemnityButton;
+    @FindBy(xpath = "//a[contains(text(), 'Dental Insurance')]") public static WebElement dentalInsuranceButton;
+    @FindBy(xpath = "//a[contains(text(), 'Vision Insurance')]") public static WebElement visionInsruanceButton;
+    @FindBy(xpath = "//a[contains(text(), 'Pharmacy Benefits')]") public static WebElement pharmacybenefitsButton;
+    @FindBy(xpath = "//a[contains(text(), 'Specialty Pharmacy Management')]")
+    public static WebElement pharmacyManagement;
+    @FindBy(xpath = "//a[contains(text(), 'Behavioral Health Benefits')]") public static WebElement behavioralButton;
+    @FindBy(xpath = "//a[contains(text(), 'Population Health Management')]") public static WebElement populationButton;
+    @FindBy(xpath = "//a[contains(text(), 'Cigna Onsite Health® Services')]")
+    public static WebElement cignaOnsiteButton;
+    @FindBy(xpath = "//a[contains(text(), 'Group Life Insurance')]") public static WebElement groupLifeButton;
+    @FindBy(xpath = "(//a[contains(text(), 'Critical Illness Insurance')])[1]")
+    public static WebElement crtiticalIllnessButton;
+    @FindBy(xpath = "//a[contains(text(), 'AD&D Insurance')]") public static WebElement addInsuranceButton;
+    @FindBy(xpath = "(//a[contains(text(), 'Accidental Injury Insurance')])[1]")
+    public static WebElement accidentalButton;
 
     public void clickPrivacyButton() {
         privacyButton.click();
@@ -381,6 +405,96 @@ public class CignaMainTestCases extends CommonAPI {
         cignaSurefitButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna SureFit Medical Plans"));
     }
+    public void clickLocalPlus(){
+        clickPlanAndServicesForEmployers();
+        localPlusButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna LocalPlus® Plans"));
+    }
+    public void clickOpenAccessButton(){
+        clickPlanAndServicesForEmployers();
+        openAccessPlusPLanButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna Open Access Plus Medical Plans"));
+    }
+    public void clickPPOPlansButton(){
+        clickPlanAndServicesForEmployers();
+        ppoPlansButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna PPO Medical Plans"));
+    }
+    public void clickHmoPlansButton(){
+        clickPlanAndServicesForEmployers();
+        hmoPlansButton.click();
+        Assert.assertTrue(header.getText().contains("Cigna Health Maintenance Organization (HMO) Medical Plans"));
+    }
+    public void clickNetworkPlansButton(){
+        clickPlanAndServicesForEmployers();
+        networkPlansButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna Medical Network Plans"));
+    }
+    public void clickIndenminityPlanButton(){
+        clickPlanAndServicesForEmployers();
+        indemnityButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Medical Indemnity Plan"));
+    }
+    public void clickDentalInsuranceButton(){
+        clickPlanAndServicesForEmployers();
+        dentalInsuranceButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Group Dental Insurance for Employers"));
+    }
+    public void clickVisionInsuranceButton(){
+        clickPlanAndServicesForEmployers();
+        visionInsruanceButton.click();
+        Assert.assertTrue(header.getText()
+                .equalsIgnoreCase("Group Vision Plans for Employers and Organizations"));
+    }
+    public void clickPharmacyButton(){
+        clickPlanAndServicesForEmployers();
+        pharmacybenefitsButton.click();
+        Assert.assertTrue(header.getText().
+                equalsIgnoreCase("The Power of Cigna's Integrated Pharmacy Benefits"));
+    }
+    public void clickPharmacyManagement(){
+        clickPlanAndServicesForEmployers();
+        pharmacyManagement.click();
+        Assert.assertTrue(header.getText()
+                .equalsIgnoreCase("Accelerating a New Model in Specialty Pharmacy Management"));
+    }
+    public void clickBehavioralButton(){
+        clickPlanAndServicesForEmployers();
+        behavioralButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna Behavioral Health"));
+    }
+    public void clickPopulationHealthButton(){
+        clickPlanAndServicesForEmployers();
+        populationButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna Health and Wellness Programs"));
+    }
+    public void clickCignaOnsiteButton(){
+        clickPlanAndServicesForEmployers();
+        cignaOnsiteButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna Onsite Health Services"));
+    }
+    public void clickGroupLifeButton(){
+        clickPlanAndServicesForEmployers();
+        groupLifeButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna Group Life Insurance"));
+    }
+    public void clickCriticalIllnessButton(){
+        clickPlanAndServicesForEmployers();
+        crtiticalIllnessButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Critical Illness Insurance"));
+    }
+    public void clickADDInsuranceButton(){
+        clickPlanAndServicesForEmployers();
+        addInsuranceButton.click();
+        Assert.assertTrue(header.getText()
+                .equalsIgnoreCase("Accidental Death and Dismemberment (AD&D) Insurance"));
+    }
+    public void clickAccidentalInsuranceButton(){
+        clickPlanAndServicesForEmployers();
+        accidentalButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Accidental Injury Insurance"));
+    }
+
 
 
 
