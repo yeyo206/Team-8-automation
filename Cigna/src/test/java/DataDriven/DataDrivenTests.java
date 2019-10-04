@@ -4,6 +4,7 @@ import CignaMain.DataDrivenTest;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import reporting.TestLogger;
 
 public class DataDrivenTests extends DataDrivenTest {
 
@@ -16,10 +17,12 @@ public class DataDrivenTests extends DataDrivenTest {
 
     @Test
     public void searchForItemsExcel() throws Exception{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchUsingExcelData();
     }
     @Test
     public void searchForItemsMongoDB(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchUsingMongoDB();
     }
 }

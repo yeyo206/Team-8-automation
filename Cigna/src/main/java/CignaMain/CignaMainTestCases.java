@@ -105,6 +105,7 @@ public class CignaMainTestCases extends CommonAPI {
     public static WebElement accidentalButton;
 
     public void clickPrivacyButton() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         privacyButton.click();
         Assert.assertTrue(header.getText().toLowerCase().contains("privacy"));
     }
@@ -120,6 +121,7 @@ public class CignaMainTestCases extends CommonAPI {
         Assert.assertTrue(header.getText().equalsIgnoreCase("CIGNA INTERNATIONAL HEALTH INSURANCE"));
     }
     public void clickContactUs() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         for (WebElement element : topLinks
         ) {
             if (element.getText().equalsIgnoreCase("contact us")) {
@@ -130,6 +132,7 @@ public class CignaMainTestCases extends CommonAPI {
         Assert.assertTrue(header.getText().equalsIgnoreCase("contact us"));
     }
     public void clickEspanolButton() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         for (WebElement element : topLinks
         ) {
             if (element.getText().contains("Español")) {
@@ -142,18 +145,22 @@ public class CignaMainTestCases extends CommonAPI {
                 "En Cigna, somos tu socio en salud integral y bienestar."));
     }
     public void searchBarSearch() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchBar.click();
         new Actions(driver).sendKeys(searchBar, "health plans" + Keys.ENTER).build().perform();
         Assert.assertTrue(searchBarResult.getText().contains("health plans"));
     }
     public void clickFindDoctor() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         findDoctorButton.click();
         Assert.assertTrue(header.getText().contains("Find a Doctor, Dentist, or Facility"));
     }
     public void clickSignIn() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         signInButton.click();
     }
     public void clickIndividualsAndFamily() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         for (WebElement element : middleButtonBar
         ) {
             if (element.getText().contains("Individuals and Families")) {
@@ -163,6 +170,7 @@ public class CignaMainTestCases extends CommonAPI {
         }
     }
     public void clickPlansAndServices() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         middleButtonBar.get(0).click();
         for (WebElement element : individualsAndFamilyOptions
         ) {
@@ -174,24 +182,28 @@ public class CignaMainTestCases extends CommonAPI {
     }
 
     public void clickDentalPLan() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlansAndServices();
         dentalPlanButton.click();
         Assert.assertTrue(header.getText().contains("Cigna Dental insurance can help you save."));
     }
 
     public void clickOtherSuplementalInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlansAndServices();
         otherSuplementalInsuranceButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Supplemental Insurance Policies"));
     }
 
     public void clickInternationalInsuranceButton() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlansAndServices();
         internationalInsuranceButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("CIGNA INTERNATIONAL HEALTH INSURANCE"));
     }
 
     public void clickUnderstandingInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         middleButtonBar.get(0).click();
         for (WebElement element : individualsAndFamilyOptions
         ) {
@@ -204,42 +216,49 @@ public class CignaMainTestCases extends CommonAPI {
     }
 
     public void clickBuyingInsurance() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickUnderstandingInsurance();
         buyingInsuranceButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Buying Health Insurance: How to Choose the Right Plan"));
     }
 
     public void clickHealthcareReformClick() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickUnderstandingInsurance();
         healthcareReformButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Health Care Reform and What it Means for You"));
     }
 
     public void clickHowToShop() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickUnderstandingInsurance();
         howToShopButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("How to Shop the Health Insurance Marketplace"));
     }
 
     public void clickCopayButton() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickUnderstandingInsurance();
         copayButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Copays, Deductibles and Coinsurance"));
     }
 
     public void clickProvidersNetwork() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickUnderstandingInsurance();
         providersButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Understanding Provider Networks"));
     }
 
     public void clickCommonInsurancePlan() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickUnderstandingInsurance();
         commonInsruanceButon.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("What's the Difference Between an HMO, EPO, and PPO?"));
     }
 
     public void memberResources() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         middleButtonBar.get(0).click();
         for (WebElement element : individualsAndFamilyOptions
         ) {
@@ -250,48 +269,57 @@ public class CignaMainTestCases extends CommonAPI {
         }
     }
     public void clickFindingDoctors(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         memberResources();
         findingDoctorButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Choosing or Changing Doctors"));
     }
     public void clickHsaButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         memberResources();
         hsaButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("How to Use Your HSA, HRA, or FSA"));
     }
     public void clickPrescriptionAndDrugButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         memberResources();
         prescriptionButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Prescription Drug Lists and Coverage"));
     }
     public void clickClaimsButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         memberResources();
         claimsButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Claims, Authorizations, and Explanations of Benefits (EOBs)"));
     }
     public void clickRequestIdCard(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         memberResources();
         requestIdCardButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Request an ID Card"));
     }
     public void clickCignaMobileApp(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         memberResources();
         cignaMobileApp.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Manage Your Health with Cigna Mobile Apps"));
 
     }
     public void clickCustomerServices(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         memberResources();
         customerServicesButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Contact Us"));
 
     }
     public void clickProgramsButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         memberResources();
         programsForMmbersButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Always by your side"));
     }
     public void clickHealthAndWellnessButton() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         middleButtonBar.get(0).click();
         for (WebElement element : individualsAndFamilyOptions
         ) {
@@ -302,90 +330,108 @@ public class CignaMainTestCases extends CommonAPI {
         }
     }
     public void clickAutismButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
         autismButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Autism"));
     }
     public void clickDentalHelthButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
         dentalHealthButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Dental Health"));
     }
     public void clickDisasterResourcesButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
         disasterResourceButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Disaster Resource Center"));
     }
     public void clickEatingDisordersButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
         eatingDisordersButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Eating Disorders"));
     }
     public void clickEatingWellButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
         eatingWellbutton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Eating Well"));
     }
     public void clickExercisesButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
         exerciseButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Exercise and Fitness"));
     }
     public void clickFamilyCareButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
         familyCareButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Family Care"));
     }
     public void clickHealthyAgingButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
         healthyAgingButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Healthy Aging"));
     }
     public void clickLgbtButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
         lgbtHealthButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("LGBT Health"));
     }
     public void clickMentalHealthButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
         mentalHealthButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Mental Health"));
     }
     public void clickMilitaryButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
         militaryButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Military and Veteran Resources"));
     }
     public void clickSubstanceButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
         substanceButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Substance Use Disorders"));
     }
     public void clickSuicideButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
         suicideButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Suicide Awareness and Prevention"));
     }
     public void clickDiseaseButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
         diseasesButton.click();
         Assert.assertTrue(header.getText().contains("Wellness and Medical Topics"));
     }
     public void clickMedicalTestButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
         medicalTestButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Medical Tests: A"));
     }
     public void clickMedicationButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
         medicationButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Medications: A"));
     }
     public void clickEmployersAndBrokers() {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         middleButtonBar.get(1).click();
 
     }
     public void clickPlanAndServicesForEmployers(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         middleButtonBar.get(1).click();
         for (WebElement element : individualsAndFamilyOptions
         ) {
@@ -396,63 +442,75 @@ public class CignaMainTestCases extends CommonAPI {
         }
     }
     public void clickHsaAndHraButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         hraAndHsaPlans.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Health Savings Account (HSA) and Health Reimbursement Account (HRA)"));
     }
     public void clickCignaSurefit(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         cignaSurefitButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna SureFit Medical Plans"));
     }
     public void clickLocalPlus(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         localPlusButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna LocalPlus® Plans"));
     }
     public void clickOpenAccessButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         openAccessPlusPLanButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna Open Access Plus Medical Plans"));
     }
     public void clickPPOPlansButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         ppoPlansButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna PPO Medical Plans"));
     }
     public void clickHmoPlansButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         hmoPlansButton.click();
         Assert.assertTrue(header.getText().contains("Cigna Health Maintenance Organization (HMO) Medical Plans"));
     }
     public void clickNetworkPlansButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         networkPlansButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna Medical Network Plans"));
     }
     public void clickIndenminityPlanButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         indemnityButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Medical Indemnity Plan"));
     }
     public void clickDentalInsuranceButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         dentalInsuranceButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Group Dental Insurance for Employers"));
     }
     public void clickVisionInsuranceButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         visionInsruanceButton.click();
         Assert.assertTrue(header.getText()
                 .equalsIgnoreCase("Group Vision Plans for Employers and Organizations"));
     }
     public void clickPharmacyButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         pharmacybenefitsButton.click();
         Assert.assertTrue(header.getText().
                 equalsIgnoreCase("The Power of Cigna's Integrated Pharmacy Benefits"));
     }
     public void clickPharmacyManagement(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         pharmacyManagement.click();
         Assert.assertTrue(header.getText()
@@ -464,32 +522,38 @@ public class CignaMainTestCases extends CommonAPI {
         Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna Behavioral Health"));
     }
     public void clickPopulationHealthButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         populationButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna Health and Wellness Programs"));
     }
     public void clickCignaOnsiteButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         cignaOnsiteButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna Onsite Health Services"));
     }
     public void clickGroupLifeButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         groupLifeButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna Group Life Insurance"));
     }
     public void clickCriticalIllnessButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         crtiticalIllnessButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Critical Illness Insurance"));
     }
     public void clickADDInsuranceButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         addInsuranceButton.click();
         Assert.assertTrue(header.getText()
                 .equalsIgnoreCase("Accidental Death and Dismemberment (AD&D) Insurance"));
     }
     public void clickAccidentalInsuranceButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
         accidentalButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Accidental Injury Insurance"));

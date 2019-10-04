@@ -17,6 +17,7 @@ public class CignaTestsRightTopButtons extends CignaMainTestCases {
 
     @Test
     public void testClickPrivacy(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPrivacyButton();
     }
     @Test
@@ -26,22 +27,27 @@ public class CignaTestsRightTopButtons extends CignaMainTestCases {
     }
     @Test
     public void testClickContactUs(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickContactUs();
     }
     @Test
     public void testClickEspanol(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickEspanolButton();
     }
     @Test
     public void testSearchBar(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         searchBarSearch();
     }
     @Test
     public void testFindDoctor(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickFindDoctor();
     }
     @Test
     public void testSignIn(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickSignIn();
     }
 }
