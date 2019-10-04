@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Generic" />
         <module name="Cigna" />
+        <module name="AutomationPractice" />
+        <module name="UnitedHealthCare" />
         <module name="Amazon" />
       </profile>
     </annotationProcessing>

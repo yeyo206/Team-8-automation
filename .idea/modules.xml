@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AutomationPractice/AutomationPractice.iml" filepath="$PROJECT_DIR$/AutomationPractice/AutomationPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Geico/Geico.iml" filepath="$PROJECT_DIR$/Geico/Geico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UnitedHealthCare/UnitedHealthCare.iml" filepath="$PROJECT_DIR$/UnitedHealthCare/UnitedHealthCare.iml" />
+    </modules>
+  </component>
+</project>
