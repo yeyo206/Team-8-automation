@@ -102,7 +102,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("https://www.cigna.com/") String url)throws IOException {
+                              String browserVersion, @Optional("https://www.uhc.com") String url)throws IOException {
         System.setProperty("webdriver.chrome.driver", "/Users/mac/IdeaProjects/Group8Automation/Drivers/chromedriver 3");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")){
@@ -317,6 +317,10 @@ public class CommonAPI {
     public void waitUntilSelectable(By locator){
         WebDriverWait wait = new WebDriverWait(driver, 10);
         boolean element = wait.until(ExpectedConditions.elementToBeSelected(locator));
+    }
+    public void waitUnitIsNotVisible(WebElement element) {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.invisibilityOf(element));
     }
 
     //Handling New Tabs\

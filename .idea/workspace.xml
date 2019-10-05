@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38b999c8-6715-4c85-af37-3c501f887f5c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.UHCBottomList.testShortTermHealthInsurance (1)">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Group8Automation" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="Group8Automation" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UHCBottomList" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitedHealthCare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UHCTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UHCTest" />
+      <option name="MAIN_CLASS_NAME" value="UHCTest.UHCBottomList" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UHCBottomList.testEmployerGroupPlans" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitedHealthCare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UHCTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UHCTest" />
+      <option name="MAIN_CLASS_NAME" value="UHCTest.UHCBottomList" />
+      <option name="METHOD_NAME" value="testEmployerGroupPlans" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UHCBottomList.testShortTermHealthInsurance (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitedHealthCare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UHCTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UHCTest" />
+      <option name="MAIN_CLASS_NAME" value="UHCTest.UHCBottomList" />
+      <option name="METHOD_NAME" value="testShortTermHealthInsurance" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UHCBottomList.testShortTermHealthInsurance" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitedHealthCare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UHCTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UHCTest" />
+      <option name="MAIN_CLASS_NAME" value="UHCTest.UHCBottomList" />
+      <option name="METHOD_NAME" value="testShortTermHealthInsurance" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UHCBottomList.testVisionInsurance" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitedHealthCare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UHCTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UHCTest" />
+      <option name="MAIN_CLASS_NAME" value="UHCTest.UHCBottomList" />
+      <option name="METHOD_NAME" value="testVisionInsurance" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.UHCBottomList.testShortTermHealthInsurance (1)" />
+        <item itemvalue="TestNG.UHCBottomList.testShortTermHealthInsurance" />
+        <item itemvalue="TestNG.UHCBottomList" />
+        <item itemvalue="TestNG.UHCBottomList.testVisionInsurance" />
+        <item itemvalue="TestNG.UHCBottomList.testEmployerGroupPlans" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <servers />
+  </component>
+</project>

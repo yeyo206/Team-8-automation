@@ -1,12 +1,16 @@
 package UHCMain;
 
 import Base.CommonAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import java.awt.image.Kernel;
+import java.util.List;
 
 public class UHCTestCases extends CommonAPI {
 
@@ -30,77 +34,186 @@ public class UHCTestCases extends CommonAPI {
     @FindBy(xpath = "//button[contains(text(),'No, thanks')]") public static WebElement noThanksButton;
     @FindBy(xpath = "//input[@name='zipCode']") public static WebElement zipCodeInput;
     @FindBy(xpath = "//label[contains(text(),'Male')]") public static WebElement male;
-    @FindBy(className = "form-control mc-input-short ng-pristine ng-valid ng-not-empty ng-valid-age-not-in-range ng-valid-date-invalid ng-valid-required ng-valid-maxlength ng-valid-mask ng-touched") public static WebElement DOB;
+    @FindBy(xpath = "//input[@name='primary_birthday']") public static WebElement DOB;
+    @FindBy(xpath = "//div[@class='gridColumn ms-gridColumn-1']/li") public static List<WebElement> bottomList;
+    @FindBy(xpath = "//h1") public static WebElement header;
+    @FindBy(xpath = "//div[@class='page-spinner-message overlay-message']") public static WebElement Processing;
 
     public void homeButton() {
         homeButton.click();
-        String text = homeButton.getText();
-        Assert.assertEquals(text, "Home");
+        Assert.assertTrue(homeButton.getText().equalsIgnoreCase("Home"));
     }
+
     public void insForIndividualsNFamilies() {
         insForIndividualsNFamilies.click();
         String text = insForIndividualsNFamilies.getText();
         Assert.assertEquals(text, "Individuals & Families");
     }
+
     public void insForEmployers() {
         insForEmployers.click();
         Assert.assertTrue(insForEmployers.getText().contains("Employers"));
     }
+
     public void medicare() {
         medicareButton.click();
         String text = medicareButton.getText();
         Assert.assertEquals(text, "Medicare");
     }
+
     public void searchBar() {
         searchBar.sendKeys("accident insurance", Keys.ENTER);
         String text = accidentInsuranceHeader.getText();
         Assert.assertEquals(text, "accident insurance");
     }
+
     public void findADoctor() {
         findADoctorButton.click();
         String text = findADoctorButton.getText();
         Assert.assertEquals(text, "Find a Doctor");
     }
+
     public void contactUs() {
         contactUsButton.click();
         Assert.assertTrue(contactUsButton.getText().contains("Contact us"));
     }
+
     public void medicarePlans() {
         medicarePlans.click();
         String text = medicarePlans.getText();
         Assert.assertEquals(text, "View Medicare plans");
     }
+
     public void individualOrFamiliesPlans() {
         individualNFamiliesPlans.click();
         Assert.assertTrue(individualNFamiliesPlans.getText().contains("individual or family plans"));
     }
+
     public void shortTermPlans() {
         shortTermPlans.click();
         Assert.assertTrue(shortTermPlans.getText().contains("short term plans"));
     }
+
     public void smallBuisinessPlans() {
-        smallBusinessPlans.click();
+        waitUntilClickAble(By.xpath("//a[contains(text(),'View small business plans')]"));
         Assert.assertTrue(smallBusinessPlans.getText().contains("small business"));
     }
+
     public void dentalPlans() {
         dentalPlans.click();
         Assert.assertTrue(dentalPlans.getText().contains("dental plans"));
     }
+
     public void medicaidPlans() {
         medicaidPlans.click();
         String text = smallBusinessPlansHeader.getText();
         Assert.assertEquals(text, "Employers");
     }
+
     public void shopMedicareSupplementPlans() {
         medicarePlans();
-        noThanksButton.click();
+        handleNewTab(driver);
         medicarePlansZipCode.sendKeys("33186", Keys.ENTER);
-        shopMedicareSupplementPlansButton.click();
     }
+
     public void shopIndividualOrFamilyPlans() {
         individualOrFamiliesPlans();
+        handleNewTab(driver);
         zipCodeInput.sendKeys("33186");
+        waitUnitIsNotVisible(Processing);
         male.click();
         DOB.sendKeys("06121997", Keys.ENTER);
     }
+    public void marketPlaceInsurancePlans() {
+        for (WebElement element : bottomList
+        ) {
+            if (element.getText().contains("Marketplace insurance plans")) {
+                element.click();
+                break;
+            }
+        }
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Marketplace plans made clear"));
+    }
+    public void Medicare() {
+        for (WebElement element : bottomList
+        ) {
+            if (element.getText().contains("Medicare")) {
+                element.click();
+                break;
+            }
+        }
+        Assert.assertTrue(header.getText().equalsIgnoreCase("The Medicare Annual Enrollment Period (AEP) for Medicare Advantage and Prescription Drug plans starts October 15."));
+    }
+    public void Medicaid() {
+        for (WebElement element : bottomList
+        ) {
+            if (element.getText().contains("Medicaid")) {
+                element.click();
+                break;
+            }
+        }
+        Assert.assertTrue(header.getText().equalsIgnoreCase("What is Medicaid?"));
+    }
+    public void employerGroupPlans() {
+        for (WebElement element : bottomList
+        ) {
+            if (element.getText().contains("Employer group plans")) {
+                element.click();
+                break;
+            }
+        }
+        Assert.assertTrue(header.getText().contains("Health insurance for employers"));
+    }
+    public void dentalInsurance() {
+        for (WebElement element : bottomList
+        ) {
+            if (element.getText().contains("Dental Insurance")) {
+                element.click();
+                break;
+            }
+        }
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Dental insurance plans"));
+    }
+    public void visionInsurance() {
+        for (WebElement element : bottomList
+        ) {
+            if (element.getText().contains("Vision Insurance")) {
+                element.click();
+                break;
+            }
+        }
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Vision insurance plans"));
+    }
+    public void shortTermHealthInsurance() {
+        for (WebElement element : bottomList
+        ) {
+            if (element.getText().contains("Short term health insurance")) {
+                element.click();
+                break;
+            }
+        }
+        new WebDriverWait(driver,15).until(ExpectedConditions.visibilityOf(header));
+        System.out.println(header.getText());
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Marketplace plans made clear"));
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
