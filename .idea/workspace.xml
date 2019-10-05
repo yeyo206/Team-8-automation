@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29272661-0d00-4fd7-b1ac-551487d294b7" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="CNN" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="1RlFkMi1XPdyuQV7cixlR07zGYw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Geico/ExcelSheet" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\CNN\src\test" />
+      <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\Geico\src\test" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\Geico\ExcelSheet" />
+      <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\DataManagement" />
+      <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\Geico" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Geico/src/test/resources/GeicoTestRunner.xml">
+    <configuration name="C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Amazon/src/test/java/Resources/AmazonTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/java/Resources/AmazonTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Geico/src/test/resources/GeicoTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cigna (1)" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Geico/src/test/resources/GeicoTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/aleja/OneDrive/Desktop/Team-8-automation/UnitedHealthCare/src/test/resources/UHCTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitedHealthCare" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/UnitedHealthCare/src/test/resources/UHCTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchUsingDataBase.testGeicoSearchBar" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cigna (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GeicoTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GeicoTests" />
+      <option name="MAIN_CLASS_NAME" value="GeicoTests.SearchUsingDataBase" />
+      <option name="METHOD_NAME" value="testGeicoSearchBar" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchUsingExcelSheet.searchForItemsExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Cigna (1)" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GeicoTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GeicoTests" />
+      <option name="MAIN_CLASS_NAME" value="GeicoTests.SearchUsingExcelSheet" />
+      <option name="METHOD_NAME" value="searchForItemsExcel" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.SearchUsingExcelSheet.searchForItemsExcel" />
+        <item itemvalue="TestNG.SearchUsingDataBase.testGeicoSearchBar" />
+        <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/UnitedHealthCare/src/test/resources/UHCTestRunner.xml" />
+        <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Geico/src/test/resources/GeicoTestRunner.xml" />
+        <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Amazon/src/test/java/Resources/AmazonTestRunner.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29272661-0d00-4fd7-b1ac-551487d294b7" name="Default Changelist" comment="" />
+      <created>1570233918231</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570233918231</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="driver" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
