@@ -51,14 +51,14 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\CNN\src\test" />
-      <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\Geico\src\test" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\Geico\ExcelSheet" />
       <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\DataManagement" />
       <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\Geico" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\CNN\src\test" />
+      <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\Geico\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -73,10 +73,57 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Geico/src/test/resources/GeicoTestRunner.xml">
-    <configuration name="C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Amazon/src/test/java/Resources/AmazonTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/java/Resources/AmazonTestRunner.xml" />
+  <component name="RunManager" selected="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/CNN/src/test/resources/CNNTestRunner.xml">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="Group8Automation" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="Group8Automation" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/aleja/OneDrive/Desktop/Team-8-automation/CNN/src/test/resources/CNNTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CNN" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/CNN/src/test/resources/CNNTestRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -142,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/CNN/src/test/resources/CNNTestRunner.xml" />
         <item itemvalue="TestNG.SearchUsingExcelSheet.searchForItemsExcel" />
         <item itemvalue="TestNG.SearchUsingDataBase.testGeicoSearchBar" />
         <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/UnitedHealthCare/src/test/resources/UHCTestRunner.xml" />
         <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Geico/src/test/resources/GeicoTestRunner.xml" />
-        <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Amazon/src/test/java/Resources/AmazonTestRunner.xml" />
       </list>
     </recent_temporary>
   </component>
