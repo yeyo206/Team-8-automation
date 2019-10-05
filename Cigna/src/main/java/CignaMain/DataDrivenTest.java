@@ -18,8 +18,7 @@ public class DataDrivenTest extends CommonAPI {
 
     public void searchUsingExcelData() throws Exception{
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        for (String item : ExcelReader.getItems()
-             ) {
+        for (String item : ExcelReader.getItems()) {
             sendKeysByChar(item, searchBar);
             searchBar.sendKeys(Keys.ENTER);
             searchBar.clear();

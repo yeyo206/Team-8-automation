@@ -45,6 +45,7 @@ public class AmazonMainTestCases extends CommonAPI {
     @FindBy(xpath = "//b[contains(text(),'Golf Bags')]") public static WebElement golfBagsHeader;
     @FindBy(xpath = "//a[@class='a-link-normal']") public static WebElement bestSellers;
     @FindBy(xpath = "//span[@class='aok-inline-block zg-item']") public static List<WebElement> bagsList;
+
     public void searchItem() {
         searchBox.sendKeys("Laptop");
         search.click();

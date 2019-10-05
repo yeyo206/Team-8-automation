@@ -28,10 +28,10 @@ public class ExcelReader {
     }
 
     public static List<String> getItems() throws FileNotFoundException, IOException{
-        File file = new File("/Users/mac/Documents/Team-8-automation/DataManagement/Items List.xlsx");
+        File file = new File("C:\\Users\\aleja\\OneDrive\\Desktop\\Team-8-automation\\Geico\\ExcelSheet\\Items Geico.xlsx");
         FileInputStream fis = new FileInputStream(file);
         XSSFWorkbook workBook = new XSSFWorkbook(fis);
-        XSSFSheet items = workBook.getSheet("Items");
+        XSSFSheet items = workBook.getSheet("Sheet1");
 
         Iterator<Row> itr = items.iterator();
         itemsList = new ArrayList<>();

@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Amazon" />
+        <module name="AutomationPractice" />
+        <module name="Cigna (1)" />
         <module name="Generic" />
         <module name="Cigna" />
-        <module name="AutomationPractice" />
         <module name="UnitedHealthCare" />
-        <module name="Amazon" />
       </profile>
     </annotationProcessing>
   </component>

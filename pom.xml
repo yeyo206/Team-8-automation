@@ -14,6 +14,7 @@
         <module>Amazon</module>
         <module>AutomationPractice</module>
         <module>UnitedHealthCare</module>
+        <module>Geico</module>
     </modules>
     <dependencyManagement>
         <dependencies>

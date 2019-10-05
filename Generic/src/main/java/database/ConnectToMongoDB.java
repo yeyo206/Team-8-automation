@@ -69,7 +69,7 @@ public class ConnectToMongoDB {
         return object;
     }
 
-    public String insertIntoMongoDB(List<String> items, String collectionName){
+    public static String insertIntoMongoDB(List<String> items, String collectionName){
         MongoDatabase mongoDatabase = connectToMongoDB();
         MongoCollection myCollection = mongoDatabase.getCollection(collectionName);
         boolean collectionExists = mongoDatabase.listCollectionNames()
@@ -77,12 +77,12 @@ public class ConnectToMongoDB {
         if(collectionExists) {
             myCollection.drop();
         }
-        for(int i=0; i<items.size() - 1; i++){
+        for(int i=0; i<items.size(); i++){
             MongoCollection<Document> collection = mongoDatabase.getCollection(collectionName);
             Document document = new Document().append("item", items.get(i));
             collection.insertOne(document);
         }
-        return  "Student has been registered";
+        return  "Items => " + items.toString() +" Inserted";
     }
 
     public static List<User> readUserProfileFromMongoDB(String collectionName){
