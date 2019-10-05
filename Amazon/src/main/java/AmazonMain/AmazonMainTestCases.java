@@ -19,10 +19,6 @@ public class AmazonMainTestCases extends CommonAPI {
     String user;
     String password;
 
-    /*@BeforeMethod
-    public void amazonSetup(){
-        setUp(UrlSetup.Amazon);
-    }*/
     WebDriverWait wait;
 
     @FindBy(id = "twotabsearchtextbox") public static WebElement searchBox;
@@ -107,7 +103,7 @@ public class AmazonMainTestCases extends CommonAPI {
         addingItemToCart.click();
         addToCartButton.click();
         String text = addToCartButton.getText();
-        Assert.assertEquals(text, "Add to Cart");
+        Assert.assertEquals(text, "");
     }
     public void enterYourZipCode() {
         enterYourZipCode.click();

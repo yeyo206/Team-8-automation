@@ -102,7 +102,7 @@ public class CommonAPI {
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
                               String browserVersion, @Optional("https://www.cigna.com/") String url)throws IOException {
-        System.setProperty("webdriver.chrome.driver", "/Users/mac/IdeaProjects/Group8Automation/Drivers/chromedriver 3");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\aleja\\OneDrive\\Desktop\\Team-8-automation\\Drivers\\77.exe");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")){
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -112,9 +112,10 @@ public class CommonAPI {
             }
         }else{
             //getLocalDriver(os, browserName);
-            System.setProperty("webdriver.chrome.driver", "/Users/mac/IdeaProjects/Group8Automation/Drivers/chromedriver 3");
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\aleja\\OneDrive\\Desktop\\Team-8-automation\\Drivers\\77.exe");
             driver = new ChromeDriver();
         }
+        driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
         driver.get(url);
@@ -123,10 +124,10 @@ public class CommonAPI {
     public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
         if(browserName.equalsIgnoreCase("chrome")){
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "/Users/mac/IdeaProjects/Group8Automation/Drivers/chromedriver 3");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\aleja\\OneDrive\\Desktop\\Team-8-automation\\Drivers\\77.exe");
             }
             else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/drivers/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\aleja\\OneDrive\\Desktop\\Team-8-automation\\Drivers\\77.exe");
             }
             driver = new ChromeDriver();
         }
@@ -134,10 +135,10 @@ public class CommonAPI {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-notifications");
             if(OS.equalsIgnoreCase("OS X")){
-                System.setProperty("webdriver.chrome.driver", "/Users/mac/IdeaProjects/Group8Automation/Drivers/chromedriver 3");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\aleja\\OneDrive\\Desktop\\Team-8-automation\\Drivers\\77.exe");
             }
             else if(OS.equalsIgnoreCase("Windows")){
-                System.setProperty("webdriver.chrome.driver", "../Generic/drivers/chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", "C:\\Users\\aleja\\OneDrive\\Desktop\\Team-8-automation\\Drivers\\77.exe");
             }
             driver = new ChromeDriver(options);
         }
