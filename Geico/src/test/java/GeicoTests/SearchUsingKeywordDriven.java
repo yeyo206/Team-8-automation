@@ -6,19 +6,17 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import reporting.TestLogger;
 
-public class GeicoTestHome extends GeicoTestCases {
+public class SearchUsingKeywordDriven extends GeicoTestCases {
     GeicoTestCases geicoTestCases;
 
     @BeforeMethod
     public void initElements() {
         geicoTestCases = PageFactory.initElements(driver, GeicoTestCases.class);
     }
+
     @Test
-    public void testZipCode() {
+    public void SearchUsingKeywordDriven() throws Exception {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        zipCode();
+        searchUsingKeywordDriven();
     }
-
-
-
 }

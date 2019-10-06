@@ -1,9 +1,0 @@
-reporting\ExtentManager.class
-database\ConnectToSqlDB.class
-database\Student.class
-reporting\ExtentTestManager.class
-reporting\TestLogger.class
-Base\CommonAPI.class
-database\User.class
-database\Item.class
-database\ConnectToMongoDB.class

@@ -12,6 +12,7 @@
         <module name="Generic" />
         <module name="Cigna" />
         <module name="UnitedHealthCare" />
+        <module name="Geico" />
       </profile>
     </annotationProcessing>
   </component>

@@ -102,7 +102,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("https://www.cigna.com/") String url)throws IOException {
+                              String browserVersion, @Optional("https://www.geico.com") String url)throws IOException {
         System.setProperty("webdriver.chrome.driver", "/Users/mac/IdeaProjects/Group8Automation/Drivers/chromedriver 3");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")){
@@ -272,7 +272,7 @@ public class CommonAPI {
         df.format(date);
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
-            FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "/screenshots/"+screenshotName+" "+df.format(date)+".png"));
+            FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "/screenshots/"+screenshotName+".png"));
             System.out.println("Screenshot captured");
         } catch (Exception e) {
             System.out.println("Exception while taking screenshot "+ e.getMessage());
