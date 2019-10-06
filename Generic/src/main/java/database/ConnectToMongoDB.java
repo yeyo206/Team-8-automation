@@ -69,7 +69,7 @@ public class ConnectToMongoDB {
         return object;
     }
 
-    public String insertIntoMongoDB(List<String> items, String collectionName){
+    public static String insertIntoMongoDB(List<String> items, String collectionName){
         MongoDatabase mongoDatabase = connectToMongoDB();
         MongoCollection myCollection = mongoDatabase.getCollection(collectionName);
         boolean collectionExists = mongoDatabase.listCollectionNames()

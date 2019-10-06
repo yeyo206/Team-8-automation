@@ -18,7 +18,7 @@ public class UHCBottomList extends UHCTestCases {
     }
     @Test
     public void testMedicare() {
-        medicare();
+        Medicare();
     }
     @Test
     public void testMedicaid() {
@@ -40,4 +40,17 @@ public class UHCBottomList extends UHCTestCases {
     public void testShortTermHealthInsurance() {
         shortTermHealthInsurance();
     }
+    @Test
+    public void testFitness(){Fitness();}
+    @Test
+    public void  testNutrition(){Nutrition();}
+    @Test
+    public void testHealthTopics(){healthTopics();}
+    @Test
+    public void testTakeControlOfYourHealh() {takeControlOfYourHealth();}
+    @Test
+    public void testHealthNWellness() {healthNWellness();}
+    @Test
+    public void testProgramsNTools(){programsNTools();}
+
 }

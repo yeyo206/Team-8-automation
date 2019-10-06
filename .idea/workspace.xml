@@ -1,19 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84ba40a7-b030-4a99-b2cc-fd58e86eddd9" name="Default Changelist" comment="" />
+    <list default="true" id="2b12a3f4-b3b5-46e3-9b2a-33e36c37f097" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UnitedHealthCare/ExcelSheet" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aleja\OneDrive\Desktop\Team-8-automation\UnitedHealthCare\ExcelSheet" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -85,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UHCBottomList" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchUsingDataBase.testGeicoSearchBar" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
@@ -94,44 +107,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="UHCTest" />
-      <option name="MAIN_CLASS_NAME" value="UHCTest.UHCBottomList" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UHCBottomList.testShortTermHealthInsurance (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UnitedHealthCare" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UHCTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UHCTest" />
-      <option name="MAIN_CLASS_NAME" value="UHCTest.UHCBottomList" />
-      <option name="METHOD_NAME" value="testShortTermHealthInsurance" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="0" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UHCBottomList.testShortTermHealthInsurance" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UnitedHealthCare" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UHCTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UHCTest" />
-      <option name="MAIN_CLASS_NAME" value="UHCTest.UHCBottomList" />
-      <option name="METHOD_NAME" value="testShortTermHealthInsurance" />
+      <option name="MAIN_CLASS_NAME" value="UHCTest.SearchUsingDataBase" />
+      <option name="METHOD_NAME" value="testGeicoSearchBar" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,7 +116,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UHCBottomList.testVisionInsurance" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchUsingExcelSheet.searchForItemsExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitedHealthCare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UHCTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UHCTest" />
+      <option name="MAIN_CLASS_NAME" value="UHCTest.SearchUsingExcelSheet" />
+      <option name="METHOD_NAME" value="searchForItemsExcel" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchUsingKeywordDriven.SearchUsingKeywordDriven" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitedHealthCare" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UHCTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UHCTest" />
+      <option name="MAIN_CLASS_NAME" value="UHCTest.SearchUsingKeywordDriven" />
+      <option name="METHOD_NAME" value="SearchUsingKeywordDriven" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UHCBottomList.testProgramsNTools" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
@@ -149,7 +162,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="UHCTest" />
       <option name="MAIN_CLASS_NAME" value="UHCTest.UHCBottomList" />
-      <option name="METHOD_NAME" value="testVisionInsurance" />
+      <option name="METHOD_NAME" value="testProgramsNTools" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -160,10 +173,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/UnitedHealthCare/src/test/resources/UHCTestRunner.xml" />
-        <item itemvalue="TestNG.UHCBottomList.testShortTermHealthInsurance (1)" />
-        <item itemvalue="TestNG.UHCBottomList.testShortTermHealthInsurance" />
-        <item itemvalue="TestNG.UHCBottomList" />
-        <item itemvalue="TestNG.UHCBottomList.testVisionInsurance" />
+        <item itemvalue="TestNG.SearchUsingKeywordDriven.SearchUsingKeywordDriven" />
+        <item itemvalue="TestNG.SearchUsingDataBase.testGeicoSearchBar" />
+        <item itemvalue="TestNG.SearchUsingExcelSheet.searchForItemsExcel" />
+        <item itemvalue="TestNG.UHCBottomList.testProgramsNTools" />
       </list>
     </recent_temporary>
   </component>
