@@ -101,7 +101,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("https://www.cigna.com/") String url)throws IOException {
+                              String browserVersion, @Optional("https://www.amazon.com") String url)throws IOException {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\aleja\\OneDrive\\Desktop\\Team-8-automation\\Drivers\\77.exe");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")){

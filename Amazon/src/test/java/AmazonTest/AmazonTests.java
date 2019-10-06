@@ -69,5 +69,12 @@ public class AmazonTests extends AmazonMainTestCases {
     public void testShopByCategories() {
         shopGolfBagBestSeller();
     }
-
+    @Test
+    public void testReturnItem() {
+        returnItem();
+    }
+    @Test
+    public void buyBestSeller() {
+        buyBestSellerElectronicItem();
+    }
 }

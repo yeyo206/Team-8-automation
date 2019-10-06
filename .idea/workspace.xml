@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40bcc2ef-ee8e-4a68-be04-ad4c7e4c90f1" name="Default Changelist" comment="" />
+    <list default="true" id="3c5c557f-94b6-4e86-8642-33b9c1371945" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +24,9 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -48,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Amazon/src/test/java/Resources/AmazonTestRunner.xml">
+  <component name="RunManager" selected="TestNG.AmazonTests.buyBestSeller">
     <configuration name="All in Amazon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <option name="PACKAGE_NAME" value="" />
@@ -104,6 +106,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AmazonTests.buyBestSeller" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AmazonTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AmazonTest" />
+      <option name="MAIN_CLASS_NAME" value="AmazonTest.AmazonTests" />
+      <option name="METHOD_NAME" value="buyBestSeller" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AmazonTests.testReturnItem" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AmazonTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AmazonTest" />
+      <option name="MAIN_CLASS_NAME" value="AmazonTest.AmazonTests" />
+      <option name="METHOD_NAME" value="testReturnItem" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AmazonTests.testShopByCategories" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AmazonTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="AmazonTest" />
+      <option name="MAIN_CLASS_NAME" value="AmazonTest.AmazonTests" />
+      <option name="METHOD_NAME" value="testShopByCategories" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Amazon/src/test/java/Resources/AmazonTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Amazon/src/test/java/Resources/AmazonTestRunner.xml" />
@@ -114,67 +170,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CignaTestsRightTopButtons.testClickCignaInternational" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Cigna" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CignaTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CignaTest" />
-      <option name="MAIN_CLASS_NAME" value="CignaTest.CignaTestsRightTopButtons" />
-      <option name="METHOD_NAME" value="testClickCignaInternational" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestHealthAndWellnessListButtons.testAutismButton" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Cigna" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CignaTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CignaTest" />
-      <option name="MAIN_CLASS_NAME" value="CignaTest.TestHealthAndWellnessListButtons" />
-      <option name="METHOD_NAME" value="testAutismButton" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestIndividualsAndFamilyBar.testIndividualsAndFamilyButton" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Cigna" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CignaTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CignaTest" />
-      <option name="MAIN_CLASS_NAME" value="CignaTest.TestIndividualsAndFamilyBar" />
-      <option name="METHOD_NAME" value="testIndividualsAndFamilyButton" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AmazonTests.buyBestSeller" />
+        <item itemvalue="TestNG.AmazonTests.testReturnItem" />
+        <item itemvalue="TestNG.AmazonTests.testShopByCategories" />
         <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Amazon/src/test/java/Resources/AmazonTestRunner.xml" />
         <item itemvalue="JUnit.All in Amazon" />
-        <item itemvalue="TestNG.CignaTestsRightTopButtons.testClickCignaInternational" />
-        <item itemvalue="TestNG.TestIndividualsAndFamilyBar.testIndividualsAndFamilyButton" />
-        <item itemvalue="TestNG.TestHealthAndWellnessListButtons.testAutismButton" />
       </list>
     </recent_temporary>
   </component>
@@ -203,5 +205,19 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Amazon/src/test/java/AmazonTest/AmazonTests.java</url>
+          <line>76</line>
+          <properties class="AmazonTest.AmazonTests" method="buyBestSeller">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

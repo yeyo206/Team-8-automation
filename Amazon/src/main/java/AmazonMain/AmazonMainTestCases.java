@@ -16,8 +16,8 @@ import java.util.List;
 
 public class AmazonMainTestCases extends CommonAPI {
 
-    String user;
-    String password;
+    String user = "alejandro_junio12@hotmail.com";
+    String password = "123456";
 
     WebDriverWait wait;
 
@@ -41,12 +41,21 @@ public class AmazonMainTestCases extends CommonAPI {
     @FindBy(id = "GLUXZipUpdateInput") public static WebElement inputZipCode;
     @FindBy(xpath = "//a[contains(text(),'Deal of the Day')]") public static WebElement dealOfTheDay;
     @FindBy(xpath = "//i[@class='hm-icon nav-sprite']") public static WebElement shopByCategory;
-    @FindBy(xpath = "//a[@data-menu-id='21']") public static WebElement sportsNOutdoorButton;
+    @FindBy(xpath = "//li/a/div[contains(text(),'Sports & Outdoors')]") public static WebElement sportsNOutdoorButton;
     @FindBy(xpath = "//a[@href='/gp/browse.html?node=3410851&ref_=nav_em_T1_0_4_22_6__sa_sp_golf']") public static WebElement getSportsNOutdoorButtonList;
     @FindBy(xpath = "//a[contains(text(),'Golf Bags')]") public static WebElement golfBags;
     @FindBy(xpath = "//b[contains(text(),'Golf Bags')]") public static WebElement golfBagsHeader;
     @FindBy(xpath = "//a[@class='a-link-normal']") public static WebElement bestSellers;
     @FindBy(xpath = "//span[@class='aok-inline-block zg-item']") public static List<WebElement> bagsList;
+    @FindBy(xpath = "//a[@href='/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice']") public static WebElement customerService;
+    @FindBy(xpath = "//input[@type='search']") public static WebElement findMoreSolutionsBar;
+    @FindBy(xpath = "//span[contains(text(),'Go to Returns Center')]") public static WebElement goToReturnCenterButton;
+    @FindBy(xpath = "//h1") public static WebElement returnCenterHeader;
+    @FindBy(xpath = "//a[@href='/gp/bestsellers/?ref_=nav_cs_bestsellers']") public static WebElement bestSellerToplist;
+    @FindBy(xpath = "//a[contains(text(),'See more Best Sellers in Electronics')]") public static WebElement bestSellerInElectronics;
+    @FindBy(xpath = "//ol[@id=\"zg-ordered-list\"]/li[1]") public static WebElement chooseNum1FromBestSellerList;
+    @FindBy(xpath = "//input[@id='add-to-cart-button']") public static WebElement bestSellerAddToCart;
+
     public void searchItem() {
         searchBox.sendKeys("Laptop");
         search.click();
@@ -124,6 +133,21 @@ public class AmazonMainTestCases extends CommonAPI {
         Assert.assertEquals(text, "Golf Bags");
         bestSellers.click();
         bagsList.get(0).click();
-        addToCartButton.click();
     }
+    public void returnItem() {
+        customerService.click();
+        findMoreSolutionsBar.sendKeys("return item", Keys.ENTER);
+        goToReturnCenterButton.click();
+        String text = returnCenterHeader.getText();
+        Assert.assertEquals(text, "Sign-In");
+    }
+    public void buyBestSellerElectronicItem() {
+        bestSellerToplist.click();
+        Assert.assertTrue(bestSellerToplist.getText().contains("Best Sellers"));
+        bestSellerInElectronics.click();
+        chooseNum1FromBestSellerList.click();
+        bestSellerAddToCart.click();
+    }
+
+
 }
