@@ -98,7 +98,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UHCBottomList.testAboutUs" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UHCBottomList.testAccidentInsurance" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
@@ -108,7 +108,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="UHCTest" />
       <option name="MAIN_CLASS_NAME" value="UHCTest.UHCBottomList" />
-      <option name="METHOD_NAME" value="testAboutUs" />
+      <option name="METHOD_NAME" value="testAccidentInsurance" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -116,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UHCBottomList.testMemberResources" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UHCBottomList.testCriticalIllnessInsurance" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
@@ -126,7 +126,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="UHCTest" />
       <option name="MAIN_CLASS_NAME" value="UHCTest.UHCBottomList" />
-      <option name="METHOD_NAME" value="testMemberResources" />
+      <option name="METHOD_NAME" value="testCriticalIllnessInsurance" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,7 +134,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UHCBottomList.testUnitedForReform" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UHCBottomList.testHospitalNDoctorInsurance" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
@@ -144,7 +144,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="UHCTest" />
       <option name="MAIN_CLASS_NAME" value="UHCTest.UHCBottomList" />
-      <option name="METHOD_NAME" value="testUnitedForReform" />
+      <option name="METHOD_NAME" value="testHospitalNDoctorInsurance" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -152,7 +152,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UHCBottomList.testValueBasedCare" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UHCBottomList.testTermLifeInsurance" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
         <pattern>
@@ -162,7 +162,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="UHCTest" />
       <option name="MAIN_CLASS_NAME" value="UHCTest.UHCBottomList" />
-      <option name="METHOD_NAME" value="testValueBasedCare" />
+      <option name="METHOD_NAME" value="testTermLifeInsurance" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -173,10 +173,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/UnitedHealthCare/src/test/resources/UHCTestRunner.xml" />
-        <item itemvalue="TestNG.UHCBottomList.testValueBasedCare" />
-        <item itemvalue="TestNG.UHCBottomList.testUnitedForReform" />
-        <item itemvalue="TestNG.UHCBottomList.testAboutUs" />
-        <item itemvalue="TestNG.UHCBottomList.testMemberResources" />
+        <item itemvalue="TestNG.UHCBottomList.testAccidentInsurance" />
+        <item itemvalue="TestNG.UHCBottomList.testCriticalIllnessInsurance" />
+        <item itemvalue="TestNG.UHCBottomList.testTermLifeInsurance" />
+        <item itemvalue="TestNG.UHCBottomList.testHospitalNDoctorInsurance" />
       </list>
     </recent_temporary>
   </component>

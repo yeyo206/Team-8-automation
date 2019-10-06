@@ -7,7 +7,6 @@ public class KeyWord extends CommonAPI {
     public enum ActionsToDo {
         searchBar
     }
-
     public void perform(ActionsToDo actionsToDo, WebElement element, String value) throws Exception {
         System.out.println("");
         switch (actionsToDo) {

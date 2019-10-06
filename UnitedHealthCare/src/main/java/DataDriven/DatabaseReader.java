@@ -11,7 +11,6 @@ public class DatabaseReader {
     public static void main(String[] args) {
         System.out.println(ConnectToMongoDB.insertIntoMongoDB(itemsList(), "test"));
     }
-
     public static List<String> itemsList(){
         list = new ArrayList<>();
         list.add("home insurance");

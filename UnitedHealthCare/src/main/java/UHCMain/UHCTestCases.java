@@ -80,7 +80,8 @@ public class UHCTestCases extends CommonAPI {
     public static WebElement findAMedicaidPhysicianButton;
     @FindBy(xpath = "//ul[@class=\"commonList\"]/li[4]")
     public static WebElement floridaButton;
-    @FindBy(xpath = "https://connect.werally.com/state-plan-selection/uhc.medicaid/state") public static WebElement valueBasedCareButton;
+    @FindBy(xpath = "https://connect.werally.com/state-plan-selection/uhc.medicaid/state")
+    public static WebElement valueBasedCareButton;
     KeyWord keyword = new KeyWord();
 
     public void homeButton() {
@@ -426,6 +427,7 @@ public class UHCTestCases extends CommonAPI {
         System.out.println(header.getText());
         Assert.assertTrue(header.getText().equalsIgnoreCase("Health Insurance Plans for Individuals & Families, Employers, Medicare\n"));
     }
+
     public void unitedForReform() {
         for (WebElement element : bottomList
         ) {
@@ -438,6 +440,7 @@ public class UHCTestCases extends CommonAPI {
         System.out.println(header.getText());
         Assert.assertTrue(header.getText().equalsIgnoreCase("United for Reform resource center"));
     }
+
     public void valueBasedCare() {
         for (WebElement element : bottomList
         ) {
@@ -451,6 +454,54 @@ public class UHCTestCases extends CommonAPI {
         Assert.assertTrue(header.getText().equalsIgnoreCase("Welcome to value-based care"));
     }
 
+    public void hospitalNDoctorInsurance() {
+        for (WebElement element : bottomList
+        ) {
+            if (element.getText().contains("Hospital and doctor insurance")) {
+                element.click();
+                break;
+            }
+        }
+        new WebDriverWait(driver, 15).until(ExpectedConditions.visibilityOf(header));
+        System.out.println(header.getText());
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Hospital and doctor indemnity insurance"));
+    }
+    public void termLifeInsurance() {
+        for (WebElement element : bottomList
+        ) {
+            if (element.getText().contains("Term life insurance ")) {
+                element.click();
+                break;
+            }
+        }
+        new WebDriverWait(driver, 15).until(ExpectedConditions.visibilityOf(header));
+        System.out.println(header.getText());
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Health Insurance Plans for Individuals & Families, Employers, Medicare"));
+    }
+    public void criticalIllnessInsurance() {
+        for (WebElement element : bottomList
+        ) {
+            if (element.getText().contains("Critical illness insurance")) {
+                element.click();
+                break;
+            }
+        }
+        new WebDriverWait(driver, 15).until(ExpectedConditions.visibilityOf(header));
+        System.out.println(header.getText());
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Health Insurance Plans for Individuals & Families, Employers, Medicare"));
+    }
+    public void accidentInsurance() {
+        for (WebElement element : bottomList
+        ) {
+            if (element.getText().contains("Accident insurance")) {
+                element.click();
+                break;
+            }
+        }
+        new WebDriverWait(driver, 15).until(ExpectedConditions.visibilityOf(header));
+        System.out.println(header.getText());
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Health Insurance Plans for Individuals & Families, Employers, Medicare"));
+    }
 }
 
 

@@ -62,6 +62,16 @@ public class UHCBottomList extends UHCTestCases {
     public void testUnitedForReform() {unitedForReform();}
     @Test
     public void testValueBasedCare() {valueBasedCare();}
+    @Test
+    public void testHospitalNDoctorInsurance(){hospitalNDoctorInsurance();}
+    @Test
+    public void testTermLifeInsurance(){termLifeInsurance();}
+    @Test
+    public void testCriticalIllnessInsurance() {criticalIllnessInsurance();}
+    @Test
+    public void testAccidentInsurance() {accidentInsurance();}
+
+
 
 
 
