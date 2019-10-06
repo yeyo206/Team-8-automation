@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38b999c8-6715-4c85-af37-3c501f887f5c" name="Default Changelist" comment="" />
+    <list default="true" id="84ba40a7-b030-4a99-b2cc-fd58e86eddd9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -20,7 +27,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.UHCBottomList.testShortTermHealthInsurance (1)">
+  <component name="RunManager" selected="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/UnitedHealthCare/src/test/resources/UHCTestRunner.xml">
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="Group8Automation" />
       <option name="VM_PARAMETERS" />
@@ -68,6 +75,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/aleja/OneDrive/Desktop/Team-8-automation/UnitedHealthCare/src/test/resources/UHCTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UnitedHealthCare" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/UnitedHealthCare/src/test/resources/UHCTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UHCBottomList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="UnitedHealthCare" />
       <extension name="coverage">
@@ -79,24 +96,6 @@
       <option name="PACKAGE_NAME" value="UHCTest" />
       <option name="MAIN_CLASS_NAME" value="UHCTest.UHCBottomList" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UHCBottomList.testEmployerGroupPlans" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="UnitedHealthCare" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UHCTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UHCTest" />
-      <option name="MAIN_CLASS_NAME" value="UHCTest.UHCBottomList" />
-      <option name="METHOD_NAME" value="testEmployerGroupPlans" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -160,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/UnitedHealthCare/src/test/resources/UHCTestRunner.xml" />
         <item itemvalue="TestNG.UHCBottomList.testShortTermHealthInsurance (1)" />
         <item itemvalue="TestNG.UHCBottomList.testShortTermHealthInsurance" />
         <item itemvalue="TestNG.UHCBottomList" />
         <item itemvalue="TestNG.UHCBottomList.testVisionInsurance" />
-        <item itemvalue="TestNG.UHCBottomList.testEmployerGroupPlans" />
       </list>
     </recent_temporary>
   </component>
