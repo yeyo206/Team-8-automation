@@ -4,6 +4,7 @@ import Base.CommonAPI;
 import DataDriven.DatabaseReader;
 import DataDriven.ExcelReader;
 import KeywordDriven.KeyWord;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -67,7 +68,19 @@ public class UHCTestCases extends CommonAPI {
     public static WebElement header;
     @FindBy(xpath = "//div[@class='page-spinner-message overlay-message']")
     public static WebElement Processing;
-
+    @FindBy(xpath = "//a[@href='https://connect.werally.com/plans/uhc']")
+    public static WebElement findAPhysicianButton;
+    @FindBy(xpath = "//a[@href='https://www.yourdentalplan.com/dentistsearch4']")
+    public static WebElement findADentistButton;
+    @FindBy(xpath = "//a[@href='https://www.optumrx.com/clientpharmacy/pharmacylocatorclient.asp?accessFullSite=true&%3Bvar=PCCFZN&%3Binfoid=PCCFZN&%3Bpage=insert&%3Bpar=']")
+    public static WebElement findAPharmacyButton;
+    @FindBy(xpath = "//input[@id='pharmacysearchInptId']")
+    public static WebElement findAPharmacyZipCode;
+    @FindBy(xpath = "//a[@href='https://connect.werally.com/state-plan-selection/uhc.medicaid/state']")
+    public static WebElement findAMedicaidPhysicianButton;
+    @FindBy(xpath = "//ul[@class=\"commonList\"]/li[4]")
+    public static WebElement floridaButton;
+    @FindBy(xpath = "https://connect.werally.com/state-plan-selection/uhc.medicaid/state") public static WebElement valueBasedCareButton;
     KeyWord keyword = new KeyWord();
 
     public void homeButton() {
@@ -273,6 +286,7 @@ public class UHCTestCases extends CommonAPI {
         System.out.println(header.getText());
         Assert.assertTrue(header.getText().equalsIgnoreCase("Health Insurance Plans for Individuals & Families, Employers, Medicare"));
     }
+
     public void takeControlOfYourHealth() {
         for (WebElement element : bottomList
         ) {
@@ -285,6 +299,7 @@ public class UHCTestCases extends CommonAPI {
         System.out.println(header.getText());
         Assert.assertTrue(header.getText().equalsIgnoreCase("Take control of your care"));
     }
+
     public void healthNWellness() {
         for (WebElement element : bottomList
         ) {
@@ -297,6 +312,7 @@ public class UHCTestCases extends CommonAPI {
         System.out.println(header.getText());
         Assert.assertTrue(header.getText().equalsIgnoreCase("Health and wellness"));
     }
+
     public void programsNTools() {
         for (WebElement element : bottomList
         ) {
@@ -309,8 +325,10 @@ public class UHCTestCases extends CommonAPI {
         System.out.println(header.getText());
         Assert.assertTrue(header.getText().equalsIgnoreCase("UnitedHealthcare programs and tools"));
     }
-    public void searchUsingExcelData() throws Exception{
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+
+    public void searchUsingExcelData() throws Exception {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         searchBar.click();
         sendKeysByChar(ExcelReader.getItems().get(0), searchBar);
         searchBar.sendKeys(Keys.ENTER);
@@ -322,12 +340,14 @@ public class UHCTestCases extends CommonAPI {
         }
         Assert.assertTrue(header.getText().contains("results"));
     }
+
     public void searchUsingMongo() {
-        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object() {
+        }.getClass().getEnclosingMethod().getName()));
         searchBar.click();
         sendKeysByChar(DatabaseReader.itemsList().get(0), searchBar);
         searchBar.sendKeys(Keys.ENTER);
-        for(String item : DatabaseReader.itemsList()
+        for (String item : DatabaseReader.itemsList()
         ) {
             searchBar.sendKeys(item);
             new Actions(driver).sendKeys(Keys.ENTER).perform();
@@ -335,12 +355,103 @@ public class UHCTestCases extends CommonAPI {
         }
         Assert.assertTrue(header.getText().contains("results"));
     }
+
     public void searchUsingKeywordDriven() throws Exception {
-        keyword.perform(KeyWord.ActionsToDo.searchBar,searchBar,"Home Insurance");
+        keyword.perform(KeyWord.ActionsToDo.searchBar, searchBar, "Home Insurance");
+    }
+
+    public void findAPhysician() {
+        findADoctor();
+        findAPhysicianButton.click();
+        Assert.assertTrue(findAPhysicianButton.getText().contains(""));
+    }
+
+    public void findADentist() {
+        findADoctor();
+        findADentistButton.click();
+        Assert.assertTrue(findADentistButton.getText().contains("Find a dentist"));
+    }
+
+    public void findAPharmacy() {
+        findADoctor();
+        findAPharmacyButton.click();
+        handleNewTab(driver);
+        findAPharmacyZipCode.sendKeys("33186", Keys.ENTER);
+        Assert.assertTrue(header.getText().contains("Find a network pharmacy"));
+    }
+
+    public void findAMedicaidPhysician() {
+        findADoctor();
+        findAMedicaidPhysicianButton.click();
+        Assert.assertTrue(findAMedicaidPhysicianButton.getText().contains("Find a Medicaid physician"));
+        handleNewTab(driver);
+        floridaButton.click();
+    }
+
+    public void openEnrollment() {
+        for (WebElement element : bottomList
+        ) {
+            if (element.getText().contains("Open enrollment")) {
+                element.click();
+                break;
+            }
+        }
+        new WebDriverWait(driver, 15).until(ExpectedConditions.visibilityOf(header));
+        System.out.println(header.getText());
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Health Insurance Plans for Individuals & Families, Employers, Medicare"));
+    }
+
+    public void memberResources() {
+        for (WebElement element : bottomList
+        ) {
+            if (element.getText().contains("Member resources")) {
+                element.click();
+                break;
+            }
+        }
+        new WebDriverWait(driver, 15).until(ExpectedConditions.visibilityOf(header));
+        System.out.println(header.getText());
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Member resources"));
+    }
+
+    public void aboutUs() {
+        for (WebElement element : bottomList
+        ) {
+            if (element.getText().contains("About us")) {
+                element.click();
+                break;
+            }
+        }
+        new WebDriverWait(driver, 15).until(ExpectedConditions.visibilityOf(header));
+        System.out.println(header.getText());
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Health Insurance Plans for Individuals & Families, Employers, Medicare\n"));
+    }
+    public void unitedForReform() {
+        for (WebElement element : bottomList
+        ) {
+            if (element.getText().contains("United for reform")) {
+                element.click();
+                break;
+            }
+        }
+        new WebDriverWait(driver, 15).until(ExpectedConditions.visibilityOf(header));
+        System.out.println(header.getText());
+        Assert.assertTrue(header.getText().equalsIgnoreCase("United for Reform resource center"));
+    }
+    public void valueBasedCare() {
+        for (WebElement element : bottomList
+        ) {
+            if (element.getText().contains("Value-based care")) {
+                element.click();
+                break;
+            }
+        }
+        new WebDriverWait(driver, 15).until(ExpectedConditions.visibilityOf(header));
+        System.out.println(header.getText());
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Welcome to value-based care"));
     }
 
 }
-
 
 
 

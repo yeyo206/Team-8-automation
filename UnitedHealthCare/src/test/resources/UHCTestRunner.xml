@@ -22,6 +22,7 @@
             <class name="UHCTest.SearchUsingDataBase"/>
             <class name="UHCTest.SearchUsingExcelSheet"/>
             <class name="UHCTest.SearchUsingKeywordDriven"/>
+            <class name="UHCTest.UHCDoctors"/>
         </classes>
     </test>
 

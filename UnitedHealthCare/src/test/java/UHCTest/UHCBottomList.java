@@ -52,5 +52,17 @@ public class UHCBottomList extends UHCTestCases {
     public void testHealthNWellness() {healthNWellness();}
     @Test
     public void testProgramsNTools(){programsNTools();}
+    @Test
+    public void testOpenEnrollment() {openEnrollment();}
+    @Test
+    public void testMemberResources(){memberResources();}
+    @Test
+    public void testAboutUs() {aboutUs();}
+    @Test
+    public void testUnitedForReform() {unitedForReform();}
+    @Test
+    public void testValueBasedCare() {valueBasedCare();}
+
+
 
 }
