@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.AmazonTests.buyBestSeller">
+  <component name="RunManager" selected="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Amazon/src/test/java/Resources/AmazonTestRunner.xml">
     <configuration name="All in Amazon" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <option name="PACKAGE_NAME" value="" />
@@ -172,10 +172,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Amazon/src/test/java/Resources/AmazonTestRunner.xml" />
         <item itemvalue="TestNG.AmazonTests.buyBestSeller" />
         <item itemvalue="TestNG.AmazonTests.testReturnItem" />
         <item itemvalue="TestNG.AmazonTests.testShopByCategories" />
-        <item itemvalue="TestNG.C:/Users/aleja/OneDrive/Desktop/Team-8-automation/Amazon/src/test/java/Resources/AmazonTestRunner.xml" />
         <item itemvalue="JUnit.All in Amazon" />
       </list>
     </recent_temporary>
