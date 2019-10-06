@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Amazon" />
         <module name="AutomationPractice" />
-        <module name="CNN" />
         <module name="Generic" />
+        <module name="CNN" />
         <module name="Cigna" />
         <module name="UnitedHealthCare" />
       </profile>
