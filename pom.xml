@@ -14,6 +14,7 @@
         <module>Amazon</module>
         <module>AutomationPractice</module>
         <module>UnitedHealthCare</module>
+        <module>Ebay</module>
     </modules>
     <dependencyManagement>
         <dependencies>
@@ -111,6 +112,16 @@
                 <groupId>com.google.apis</groupId>
                 <artifactId>google-api-services-sheets</artifactId>
                 <version>v4-rev498-1.23.0</version>
+            </dependency>
+            <dependency>
+                <groupId>io.rest-assured</groupId>
+                <artifactId>rest-assured</artifactId>
+                <version>3.3.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.googlecode.json-simple</groupId>
+                <artifactId>json-simple</artifactId>
+                <version>1.1.1</version>
             </dependency>
             <dependency>
                 <groupId>io.rest-assured</groupId>

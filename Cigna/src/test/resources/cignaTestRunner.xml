@@ -24,9 +24,7 @@
             <class name="CignaTest.TestPlanAndServicesFromEmployersExtension"></class>
             <class name="CignaTest.TestPlansAndServicesUsingSupplemental"></class>
             <class name="DataDriven.DataDrivenTests"></class>
-
-            
+            <class name="CignaTest.TestEmployersAndBrokersExtent"></class>
         </classes>
     </test>
-
 </suite>

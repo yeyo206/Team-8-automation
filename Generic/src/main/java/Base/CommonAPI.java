@@ -102,7 +102,7 @@ public class CommonAPI {
     @BeforeMethod
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
-                              String browserVersion, @Optional("https://www.cigna.com/") String url)throws IOException {
+                              String browserVersion, @Optional("http://www.ebay.com") String url)throws IOException {
         System.setProperty("webdriver.chrome.driver", "/Users/mac/IdeaProjects/Group8Automation/Drivers/chromedriver 3");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")){
@@ -113,7 +113,7 @@ public class CommonAPI {
             }
         }else{
             //getLocalDriver(os, browserName);
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\aleja\\OneDrive\\Desktop\\Team-8-automation\\Drivers\\77.exe");
+            System.setProperty("webdriver.chrome.driver", "/Users/mac/Documents/Team-8-automation/Drivers/drivers/chromedriver 3");
             driver = new ChromeDriver();
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -328,6 +328,13 @@ public class CommonAPI {
         return driver1;
     }
 
+    public void scrollElementIntoView(WebElement element){
+        ((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'})",
+                                                        element
+        );
+    }
+
+
     public String initWindows(){
         windows = new HashSet<>();
         driver.getWindowHandles().stream()
@@ -357,5 +364,9 @@ public class CommonAPI {
 
     public void inputValueInTextBoxByWebElement(WebElement element, String value) {
         element.sendKeys(value + Keys.ENTER);
+    }
+
+    public WebDriverWait explicitlyWait (int timeOut){
+        return new WebDriverWait(driver,timeOut);
     }
 }

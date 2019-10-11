@@ -14,7 +14,9 @@
     <test name="Cigna">
         <classes>
             <class name="EbayTest.EbayTestCases"></class>
-
+            <class name="EbayTest.TestAllFilters"></class>
+            <class name="EbayTest.TestMainButtons"></class>
+            <class name="EbayTest.testBusinessSection"></class>
         </classes>
     </test>
 

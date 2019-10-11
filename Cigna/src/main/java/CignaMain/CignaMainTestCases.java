@@ -1,8 +1,10 @@
 package CignaMain;
 
 import Base.CommonAPI;
+import KeywordDriven.ActionsToDo;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
@@ -37,13 +39,13 @@ public class CignaMainTestCases extends CommonAPI {
     @FindBy(xpath = "(//a[contains(text() , 'Dental Insurance Plans')])[1]")
     public static WebElement dentalPlanButton;
     @FindBy(xpath = "(//a[contains(text() , 'Other Supplemental Insurance')])[1]")
-    public static WebElement otherSuplementalInsuranceButton;
+    public static WebElement otherSupplementalInsuranceButton;
     @FindBy(xpath = "//a[contains(text() , 'International Health Insurance')]")
     public static WebElement internationalInsuranceButton;
     @FindBy(xpath = "//a[contains(text() , 'Buying Insurance: How to Choose the Right Plan')]")
     public static WebElement buyingInsuranceButton;
     @FindBy(xpath = "//a[contains(text() , 'Health Care Reform: What It Means For You')]")
-    public static WebElement healthcareReformButton;
+    public static WebElement healthCareReformButton;
     @FindBy(xpath = "//a[contains(text() , 'How to Shop the Health Insurance Marketplace')]")
     public static WebElement howToShopButton;
     @FindBy(xpath = "//a[contains(text() , 'Copays, Deductibles, and Coinsurance')]")
@@ -51,7 +53,7 @@ public class CignaMainTestCases extends CommonAPI {
     @FindBy(xpath = "(//a[contains(text() , 'Understanding Provider Networks')])[1]")
     public static WebElement providersButton;
     @FindBy(xpath = "//a[contains(text() , 'Common Insurance Plan Types: HMO, PPO, EPO')]")
-    public static WebElement commonInsruanceButon;
+    public static WebElement commonInsuranceButton;
     @FindBy(xpath = "//a[contains(text() , 'Finding or Changing Doctors')]")
     public static WebElement findingDoctorButton;
     @FindBy(xpath = "//a[contains(text() , 'HSA, FSA, and HRA Reimbursements')]") public static WebElement hsaButton;
@@ -60,13 +62,13 @@ public class CignaMainTestCases extends CommonAPI {
     @FindBy(xpath = "//a[contains(text() , 'Request an ID Card')]") public static WebElement requestIdCardButton;
     @FindBy(xpath = "(//a[contains(text() , 'Cigna Mobile Apps')])[1]") public static WebElement cignaMobileApp;
     @FindBy(xpath = "//a[contains(text() , 'Customer Services')]") public static WebElement customerServicesButton;
-    @FindBy(xpath = "//a[contains(text() , 'Programs for Members')]") public static WebElement programsForMmbersButton;
+    @FindBy(xpath = "//a[contains(text() , 'Programs for Members')]") public static WebElement programsForMembersButton;
     @FindBy(xpath = "//a[contains(text() , 'Autism')]") public static WebElement autismButton;
     @FindBy(xpath = "//a[contains(text() , 'Dental Health')]") public static WebElement dentalHealthButton;
     @FindBy(xpath = "//a[contains(text() , 'Disaster Resource Center')]")
     public static WebElement disasterResourceButton;
     @FindBy (xpath = "//a[contains(text() , 'Eating Disorders')]") public static WebElement  eatingDisordersButton;
-    @FindBy (xpath = "//a[contains(text() , 'Eating Well')]") public static WebElement eatingWellbutton;
+    @FindBy (xpath = "//a[contains(text() , 'Eating Well')]") public static WebElement eatingWellButton;
     @FindBy(xpath = "//a[contains(text() , 'Exercise and Fitness')]") public static WebElement exerciseButton;
     @FindBy(xpath = "//a[contains(text() , 'Family Care')]") public static WebElement familyCareButton;
     @FindBy(xpath = "//a[contains(text() , 'Healthy Aging')]") public static WebElement healthyAgingButton;
@@ -80,7 +82,7 @@ public class CignaMainTestCases extends CommonAPI {
     @FindBy(xpath = "//a[contains(text() , 'Medical Tests')]") public static WebElement medicalTestButton;
     @FindBy(xpath = "//a[contains(text() , 'Medications')]") public static WebElement medicationButton;
     @FindBy(xpath = "//a[contains(text() , 'HRA and HSA Plans')]") public static WebElement hraAndHsaPlans;
-    @FindBy(xpath = "//a[contains(text() , 'Cigna SureFit® Plans')]") public static WebElement cignaSurefitButton;
+    @FindBy(xpath = "//a[contains(text() , 'Cigna SureFit® Plans')]") public static WebElement cignaSureFitButton;
     @FindBy(xpath = "//a[contains(text(), 'LocalPlus® Plans')]") public static WebElement localPlusButton;
     @FindBy(xpath = "//a[contains(text(), 'Open Access Plus Plans')]")
     public static WebElement openAccessPlusPLanButton;
@@ -89,8 +91,8 @@ public class CignaMainTestCases extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(), 'Network Plans')]") public static WebElement networkPlansButton;
     @FindBy(xpath = "//a[contains(text(), 'Indemnity Plans')]") public static WebElement indemnityButton;
     @FindBy(xpath = "//a[contains(text(), 'Dental Insurance')]") public static WebElement dentalInsuranceButton;
-    @FindBy(xpath = "//a[contains(text(), 'Vision Insurance')]") public static WebElement visionInsruanceButton;
-    @FindBy(xpath = "//a[contains(text(), 'Pharmacy Benefits')]") public static WebElement pharmacybenefitsButton;
+    @FindBy(xpath = "//a[contains(text(), 'Vision Insurance')]") public static WebElement visionInsuranceButton;
+    @FindBy(xpath = "//a[contains(text(), 'Pharmacy Benefits')]") public static WebElement pharmacyBenefitsButton;
     @FindBy(xpath = "//a[contains(text(), 'Specialty Pharmacy Management')]")
     public static WebElement pharmacyManagement;
     @FindBy(xpath = "//a[contains(text(), 'Behavioral Health Benefits')]") public static WebElement behavioralButton;
@@ -99,7 +101,7 @@ public class CignaMainTestCases extends CommonAPI {
     public static WebElement cignaOnsiteButton;
     @FindBy(xpath = "//a[contains(text(), 'Group Life Insurance')]") public static WebElement groupLifeButton;
     @FindBy(xpath = "(//a[contains(text(), 'Critical Illness Insurance')])[1]")
-    public static WebElement crtiticalIllnessButton;
+    public static WebElement criticalIllnessButton;
     @FindBy(xpath = "//a[contains(text(), 'AD&D Insurance')]") public static WebElement addInsuranceButton;
     @FindBy(xpath = "(//a[contains(text(), 'Accidental Injury Insurance')])[1]")
     public static WebElement accidentalButton;
@@ -107,10 +109,20 @@ public class CignaMainTestCases extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(), 'Group Disability Insurance')]")public static WebElement groupDisabilityButton;
     @FindBy(xpath = "//a[contains(text(), 'Cigna Leave Solutions®')]")public static WebElement cignaLeaveSolutions;
     @FindBy(xpath = "//a[contains(text(), 'Funding Solutions')]") public static WebElement fundingSolutionsButton;
+    @FindBy(xpath = "//a[contains(text(), 'Stop Loss Solutions')]") public static WebElement stopLossSolutionsButton;
+    @FindBy(xpath = "//a[contains(text(), 'Defined Contributions')]")public static  WebElement definedContributionButton;
+    @FindBy(xpath = "(//a[contains(text(), 'Flexible Spending Accounts')])[1]")
+    public static WebElement flexibleSpendingButton;
+    @FindBy(xpath = "(//a[contains(text(), 'Small Employers (51-499)')])[1]")
+    public static WebElement smallEmployersButton;
+
+    ActionsToDo actionsToDo = new ActionsToDo();
+
+
 
     public void clickPrivacyButton() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        privacyButton.click();
+        actionsToDo.perform(ActionsToDo.Actions.click,privacyButton,"ss");
         Assert.assertTrue(header.getText().toLowerCase().contains("privacy"));
     }
     public void clickCignaInternational() {
@@ -195,7 +207,7 @@ public class CignaMainTestCases extends CommonAPI {
     public void clickOtherSuplementalInsurance() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlansAndServices();
-        otherSuplementalInsuranceButton.click();
+        otherSupplementalInsuranceButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Supplemental Insurance Policies"));
     }
 
@@ -229,7 +241,7 @@ public class CignaMainTestCases extends CommonAPI {
     public void clickHealthcareReformClick() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickUnderstandingInsurance();
-        healthcareReformButton.click();
+        healthCareReformButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Health Care Reform and What it Means for You"));
     }
 
@@ -257,7 +269,7 @@ public class CignaMainTestCases extends CommonAPI {
     public void clickCommonInsurancePlan() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickUnderstandingInsurance();
-        commonInsruanceButon.click();
+        commonInsuranceButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("What's the Difference Between an HMO, EPO, and PPO?"));
     }
 
@@ -319,7 +331,7 @@ public class CignaMainTestCases extends CommonAPI {
     public void clickProgramsButton(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         memberResources();
-        programsForMmbersButton.click();
+        programsForMembersButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Always by your side"));
     }
     public void clickHealthAndWellnessButton() {
@@ -360,7 +372,7 @@ public class CignaMainTestCases extends CommonAPI {
     public void clickEatingWellButton(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickHealthAndWellnessButton();
-        eatingWellbutton.click();
+        eatingWellButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Eating Well"));
     }
     public void clickExercisesButton(){
@@ -454,7 +466,7 @@ public class CignaMainTestCases extends CommonAPI {
     public void clickCignaSurefit(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
-        cignaSurefitButton.click();
+        cignaSureFitButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna SureFit Medical Plans"));
     }
     public void clickLocalPlus(){
@@ -502,14 +514,14 @@ public class CignaMainTestCases extends CommonAPI {
     public void clickVisionInsuranceButton(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
-        visionInsruanceButton.click();
+        visionInsuranceButton.click();
         Assert.assertTrue(header.getText()
                 .equalsIgnoreCase("Group Vision Plans for Employers and Organizations"));
     }
     public void clickPharmacyButton(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
-        pharmacybenefitsButton.click();
+        pharmacyBenefitsButton.click();
         Assert.assertTrue(header.getText().
                 equalsIgnoreCase("The Power of Cigna's Integrated Pharmacy Benefits"));
     }
@@ -546,7 +558,7 @@ public class CignaMainTestCases extends CommonAPI {
     public void clickCriticalIllnessButton(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPlanAndServicesForEmployers();
-        crtiticalIllnessButton.click();
+        criticalIllnessButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Critical Illness Insurance"));
     }
     public void clickADDInsuranceButton(){
@@ -586,5 +598,39 @@ public class CignaMainTestCases extends CommonAPI {
         fundingSolutionsButton.click();
         Assert.assertTrue(header.getText().equalsIgnoreCase("Funding Solutions"));
     }
-
+    public void clickStopLossSolutions(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickPlanAndServicesForEmployers();
+        stopLossSolutionsButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Medical Stop Loss Insurance"));
+    }
+    public void clickDefinedSolutionsButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickPlanAndServicesForEmployers();
+        definedContributionButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Defined Contribution Strategy"));
+    }
+    public void clickFlexibleSpendingButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickPlanAndServicesForEmployers();
+        flexibleSpendingButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Cigna Flexible Spending Accounts"));
+    }
+    public void clickWhoWeServe(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        middleButtonBar.get(1).click();
+        for (WebElement element : individualsAndFamilyOptions
+        ) {
+            if (element.getText().contains("Who We Serve")) {
+                element.click();
+                break;
+            }
+        }
+    }
+    public void clickSmallEmplyers(){
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        clickWhoWeServe();
+        smallEmployersButton.click();
+        Assert.assertTrue(header.getText().equalsIgnoreCase("Benefit Solutions for Small Business (51-499 employees)*"));
+    }
 }

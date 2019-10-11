@@ -10,17 +10,42 @@
   <parameter name="url" value="https://www.cigna.com/"/>
   <test thread-count="5" name="Cigna(failed)" verbose="0">
     <classes>
-      <class name="CignaTest.CignaTests2">
+      <class name="CignaTest.TestIndividualsAndFamilyBar">
         <methods>
           <include name="afterEachTestMethod"/>
-          <include name="testDentalPlanButton"/>
+          <include name="initElements"/>
           <include name="cleanUP"/>
           <include name="startExtent"/>
           <include name="setUp"/>
-          <include name="initElements"/>
+          <include name="extentSetup"/>
           <include name="generateReport"/>
+          <include name="testDentalPlanButton"/>
         </methods>
-      </class> <!-- CignaTest.CignaTests2 -->
+      </class> <!-- CignaTest.TestIndividualsAndFamilyBar -->
+      <class name="CignaTest.TestPlanAndServicesFromEmployers">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="clickPPOPlansButton"/>
+          <include name="cleanUP"/>
+          <include name="startExtent"/>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="generateReport"/>
+          <include name="initElements"/>
+        </methods>
+      </class> <!-- CignaTest.TestPlanAndServicesFromEmployers -->
+      <class name="CignaTest.CignaTestsRightTopButtons">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="testSearchBar"/>
+          <include name="cleanUP"/>
+          <include name="startExtent"/>
+          <include name="setUp"/>
+          <include name="extentSetup"/>
+          <include name="generateReport"/>
+          <include name="initElements"/>
+        </methods>
+      </class> <!-- CignaTest.CignaTestsRightTopButtons -->
     </classes>
   </test> <!-- Cigna(failed) -->
 </suite> <!-- Failed suite [Cigna Automation] -->
