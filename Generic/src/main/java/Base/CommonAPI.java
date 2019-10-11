@@ -113,7 +113,7 @@ public class CommonAPI {
             }
         }else{
             //getLocalDriver(os, browserName);
-            System.setProperty("webdriver.chrome.driver", "/Users/mac/Documents/Team-8-automation/Drivers/drivers/chromedriver 3");
+            System.setProperty("webdriver.chrome.driver", "Drivers/drivers/chromedriver 3");
             driver = new ChromeDriver();
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
