@@ -26,7 +26,7 @@ public class TestPlanAndServicesFromEmployers extends CignaMainTestCases {
         clickOpenAccessButton();
     }
     @Test
-    public void clickPPOPlansButton(){
+    public void clickPPOPlansButtonTest(){
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         clickPPOPlansButton();
     }
