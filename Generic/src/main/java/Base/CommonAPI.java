@@ -103,7 +103,7 @@ public class CommonAPI {
     public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
                       @Optional("OS X") String os, @Optional("10") String os_version, @Optional("chrome-options") String browserName, @Optional("34")
                               String browserVersion, @Optional("http://www.ebay.com") String url)throws IOException {
-        System.setProperty("webdriver.chrome.driver", "/Users/mac/IdeaProjects/Group8Automation/Drivers/chromedriver 3");
+        System.setProperty("webdriver.chrome.driver", "../Drivers/drivers/chromedriver 3");
         if(useCloudEnv==true){
             if(cloudEnvName.equalsIgnoreCase("browserstack")){
                 getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
@@ -113,7 +113,7 @@ public class CommonAPI {
             }
         }else{
             //getLocalDriver(os, browserName);
-            System.setProperty("webdriver.chrome.driver", "Drivers/drivers/chromedriver 3");
+            System.setProperty("webdriver.chrome.driver", "../Drivers/drivers/chromedriver 3");
             driver = new ChromeDriver();
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
