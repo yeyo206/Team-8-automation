@@ -114,7 +114,11 @@ public class CommonAPI {
         }else{
             //getLocalDriver(os, browserName);
             System.setProperty("webdriver.chrome.driver", "../Drivers/drivers/chromedriver 3");
-            driver = new ChromeDriver();
+            driver = new ChromeDriver(new ChromeOptions().addArguments("--headless",
+                                                                       "--disable-gpu",
+                                                                       "--window-size=1920,1200",
+                                                                       "--ignore-certificate-errors",
+                                                                       "--silent"));
         }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
