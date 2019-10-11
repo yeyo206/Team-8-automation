@@ -28,7 +28,7 @@ public class ExcelReader {
     }
 
     public static List<String> getItems() throws FileNotFoundException, IOException{
-        File file = new File("/Users/mac/Documents/Team-8-automation/DataManagement/Items List.xlsx");
+        File file = new File("../DataManagement/Items List.xlsx");
         FileInputStream fis = new FileInputStream(file);
         XSSFWorkbook workBook = new XSSFWorkbook(fis);
         XSSFSheet items = workBook.getSheet("Items");
