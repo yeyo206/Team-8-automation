@@ -1,5 +1,6 @@
 import io.restassured.response.Response;
 
+import java.io.InputStream;
 import java.util.Arrays;
 import java.util.List;
 
@@ -18,7 +19,7 @@ public class JsonParser {
         StringBuilder builder;
         for (Employee employee : empObject()
         ) {
-            if(employee.getEmpName().equalsIgnoreCase(employeeName)){
+            if(employee.getEmpName().contains(employeeName) && employee.getEmpName() != null){
                 builder = new StringBuilder();
                 builder.append(employee.getEmpName())
                         .append(employee.getDepartment());
@@ -38,6 +39,7 @@ public class JsonParser {
             );
         }
         System.out.println(empObject().size());
+        //getEmployee("Fariha");
     }
 
 }

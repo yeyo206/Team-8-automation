@@ -65,8 +65,7 @@ public class CignaMainTestCases extends CommonAPI {
     @FindBy(xpath = "//a[contains(text() , 'Programs for Members')]") public static WebElement programsForMembersButton;
     @FindBy(xpath = "//a[contains(text() , 'Autism')]") public static WebElement autismButton;
     @FindBy(xpath = "//a[contains(text() , 'Dental Health')]") public static WebElement dentalHealthButton;
-    @FindBy(xpath = "//a[contains(text() , 'Disaster Resource Center')]")
-    public static WebElement disasterResourceButton;
+    @FindBy(xpath = "//a[contains(text() , 'Disaster Resource Center')]") public static WebElement disasterResourceButton;
     @FindBy (xpath = "//a[contains(text() , 'Eating Disorders')]") public static WebElement  eatingDisordersButton;
     @FindBy (xpath = "//a[contains(text() , 'Eating Well')]") public static WebElement eatingWellButton;
     @FindBy(xpath = "//a[contains(text() , 'Exercise and Fitness')]") public static WebElement exerciseButton;
@@ -76,16 +75,14 @@ public class CignaMainTestCases extends CommonAPI {
     @FindBy(xpath = "//a[contains(text() , 'Mental Health')]") public static WebElement mentalHealthButton;
     @FindBy(xpath = "//a[contains(text() , 'Military and Veteran Support')]") public static WebElement militaryButton;
     @FindBy(xpath = "//a[contains(text() , 'Substance Use Disorders')]") public static WebElement substanceButton;
-    @FindBy(xpath = "//a[contains(text() , 'Suicide Awareness and Prevention')]")
-    public static WebElement suicideButton;
+    @FindBy(xpath = "//a[contains(text() , 'Suicide Awareness and Prevention')]") public static WebElement suicideButton;
     @FindBy(xpath = "//a[contains(text() , 'Diseases and Conditions')]") public static WebElement diseasesButton;
     @FindBy(xpath = "//a[contains(text() , 'Medical Tests')]") public static WebElement medicalTestButton;
     @FindBy(xpath = "//a[contains(text() , 'Medications')]") public static WebElement medicationButton;
     @FindBy(xpath = "//a[contains(text() , 'HRA and HSA Plans')]") public static WebElement hraAndHsaPlans;
     @FindBy(xpath = "//a[contains(text() , 'Cigna SureFit® Plans')]") public static WebElement cignaSureFitButton;
     @FindBy(xpath = "//a[contains(text(), 'LocalPlus® Plans')]") public static WebElement localPlusButton;
-    @FindBy(xpath = "//a[contains(text(), 'Open Access Plus Plans')]")
-    public static WebElement openAccessPlusPLanButton;
+    @FindBy(xpath = "//a[contains(text(), 'Open Access Plus Plans')]") public static WebElement openAccessPlusPLanButton;
     @FindBy(xpath = "//a[contains(text(), 'PPO Plans')]") public static WebElement ppoPlansButton;
     @FindBy(xpath = "//a[contains(text(), 'HMO Plans')]") public static WebElement hmoPlansButton;
     @FindBy(xpath = "//a[contains(text(), 'Network Plans')]") public static WebElement networkPlansButton;
@@ -93,32 +90,24 @@ public class CignaMainTestCases extends CommonAPI {
     @FindBy(xpath = "//a[contains(text(), 'Dental Insurance')]") public static WebElement dentalInsuranceButton;
     @FindBy(xpath = "//a[contains(text(), 'Vision Insurance')]") public static WebElement visionInsuranceButton;
     @FindBy(xpath = "//a[contains(text(), 'Pharmacy Benefits')]") public static WebElement pharmacyBenefitsButton;
-    @FindBy(xpath = "//a[contains(text(), 'Specialty Pharmacy Management')]")
-    public static WebElement pharmacyManagement;
+    @FindBy(xpath = "//a[contains(text(), 'Specialty Pharmacy Management')]") public static WebElement pharmacyManagement;
     @FindBy(xpath = "//a[contains(text(), 'Behavioral Health Benefits')]") public static WebElement behavioralButton;
     @FindBy(xpath = "//a[contains(text(), 'Population Health Management')]") public static WebElement populationButton;
-    @FindBy(xpath = "//a[contains(text(), 'Cigna Onsite Health® Services')]")
-    public static WebElement cignaOnsiteButton;
+    @FindBy(xpath = "//a[contains(text(), 'Cigna Onsite Health® Services')]") public static WebElement cignaOnsiteButton;
     @FindBy(xpath = "//a[contains(text(), 'Group Life Insurance')]") public static WebElement groupLifeButton;
-    @FindBy(xpath = "(//a[contains(text(), 'Critical Illness Insurance')])[1]")
-    public static WebElement criticalIllnessButton;
+    @FindBy(xpath = "(//a[contains(text(), 'Critical Illness Insurance')])[1]") public static WebElement criticalIllnessButton;
     @FindBy(xpath = "//a[contains(text(), 'AD&D Insurance')]") public static WebElement addInsuranceButton;
-    @FindBy(xpath = "(//a[contains(text(), 'Accidental Injury Insurance')])[1]")
-    public static WebElement accidentalButton;
+    @FindBy(xpath = "(//a[contains(text(), 'Accidental Injury Insurance')])[1]") public static WebElement accidentalButton;
     @FindBy(xpath = "//a[contains(text(), 'Hospital Care Insurance')]") public static WebElement hospitalCareButton;
     @FindBy(xpath = "//a[contains(text(), 'Group Disability Insurance')]")public static WebElement groupDisabilityButton;
     @FindBy(xpath = "//a[contains(text(), 'Cigna Leave Solutions®')]")public static WebElement cignaLeaveSolutions;
     @FindBy(xpath = "//a[contains(text(), 'Funding Solutions')]") public static WebElement fundingSolutionsButton;
     @FindBy(xpath = "//a[contains(text(), 'Stop Loss Solutions')]") public static WebElement stopLossSolutionsButton;
     @FindBy(xpath = "//a[contains(text(), 'Defined Contributions')]")public static  WebElement definedContributionButton;
-    @FindBy(xpath = "(//a[contains(text(), 'Flexible Spending Accounts')])[1]")
-    public static WebElement flexibleSpendingButton;
-    @FindBy(xpath = "(//a[contains(text(), 'Small Employers (51-499)')])[1]")
-    public static WebElement smallEmployersButton;
+    @FindBy(xpath = "(//a[contains(text(), 'Flexible Spending Accounts')])[1]") public static WebElement flexibleSpendingButton;
+    @FindBy(xpath = "(//a[contains(text(), 'Small Employers (51-499)')])[1]") public static WebElement smallEmployersButton;
 
     ActionsToDo actionsToDo = new ActionsToDo();
-
-
 
     public void clickPrivacyButton() {
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));

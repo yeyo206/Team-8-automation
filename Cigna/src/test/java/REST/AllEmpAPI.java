@@ -1,6 +1,9 @@
 package REST;
 
+import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import org.json.simple.JSONObject;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -12,7 +15,7 @@ public class AllEmpAPI {
 
     @Test
     public void callAllEmployeeResources() {
-        Response response = given().when().get(baseUrl+"/api/AllEmployeeResources").then().statusCode(200).extract().response();
+        Response response = given().when().get(baseUrl + "/api/AllEmployeeResources").then().statusCode(200).extract().response();
         String statusLine = response.getStatusLine();
         int statusCode = response.getStatusCode();
         String body = response.getBody().prettyPrint();
@@ -25,7 +28,7 @@ public class AllEmpAPI {
         Response response = null;
         int statusCode = 0;
         try {
-            response = given().when().get(baseUrl+"/api/AllEmployeeResources809879");
+            response = given().when().get(baseUrl + "/api/AllEmployeeResources809879");
             statusCode = response.getStatusCode();
         } catch (Exception ex) {
         }
@@ -37,10 +40,11 @@ public class AllEmpAPI {
         Response response = null;
         int statusCode = 0;
         try {
-            response = given().when().get(baseUrl+"/api/AllEmployeeResources").then().statusCode(200).extract().response();
+            response = given().when().get(baseUrl + "/api/AllEmployeeResources").then().statusCode(200).extract().response();
             statusCode = response.getStatusCode();
         } catch (Exception ex) {
         }
         Assert.assertEquals(statusCode, 200);
     }
 }
+

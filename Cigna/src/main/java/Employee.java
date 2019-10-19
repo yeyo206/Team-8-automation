@@ -1,8 +1,13 @@
 
+import com.google.gson.annotations.JsonAdapter;
+import org.testng.annotations.Optional;
+
+import javax.annotation.Nullable;
+
 /**
  * This class is used to model All Employee Resources API object for deserialization
  */
-public class Employee  {
+public class Employee {
 
     private String id;
     private String empEmail;
@@ -22,7 +27,7 @@ public class Employee  {
         return empEmail;
     }
 
-    public void setEmpEmail( String empEmail) {
+    public void setEmpEmail(String empEmail) {
         this.empEmail = empEmail;
     }
 
@@ -38,7 +43,7 @@ public class Employee  {
         return salary;
     }
 
-    public void setSalary( String salary) {
+    public void setSalary(String salary) {
         this.salary = salary;
     }
 
